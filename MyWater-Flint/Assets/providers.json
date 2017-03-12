@@ -1,0 +1,325 @@
+{ "providers": [
+{
+    "latitude": 43.0214,
+    "longitude": -83.7031,
+    "locationName": "Advanced Care Pharmacy",
+    "aidAddress": "420 W. Fifth Ave.",
+    "city": "Flint",
+    "zipcode": 48503,
+    "hours": "MTWRF 10a-4p",
+    "phone": "",
+    "notes": "Free, no appointment required, same-day results.",
+    "resType": [
+        "Blood Testing"
+    ]
+},
+{
+    "latitude": 43.0019,
+    "longitude": -83.6916,
+    "locationName": "Bill Carr Signs",
+    "aidAddress": "719 W. 12th St.",
+    "city": "Flint",
+    "zipcode": 48503,
+    "hours": "MTWRF 8a-4p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Recycle"
+    ]
+},
+{
+    "latitude": 43.0505,
+    "longitude": -83.6182,
+    "locationName": "Central Pharmacy",
+    "aidAddress": "3097 N. Genesee Rd.",
+    "city": "Flint",
+    "zipcode": 48506,
+    "hours": "MTWRF 9a-6p; S 9a-2p",
+    "phone": "",
+    "notes": "Free, no appointment required, same-day results.",
+    "resType": [
+        "Blood Testing"
+    ]
+},
+{
+    "latitude": 43.0107,
+    "longitude": -83.6999,
+    "locationName": "Dover & Company",
+    "aidAddress": "651 Hall St.",
+    "city": "Flint",
+    "zipcode": 48503,
+    "hours": "MTWRF 8a-4p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Recycle"
+    ]
+},
+{
+    "latitude": 43.0115,
+    "longitude": -83.685,
+    "locationName": "Flint City Hall",
+    "aidAddress": "1101 S. Saginaw St.",
+    "city": "Flint",
+    "zipcode": 48502,
+    "hours": "MTWRFS 9a-4p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Water Filters"
+    ]
+},
+{
+    "latitude": 43.041,
+    "longitude": -83.6655,
+    "locationName": "Franklin Avenue Lot",
+    "aidAddress": "2804 N. Franklin Ave.",
+    "city": "Flint",
+    "zipcode": 48506,
+    "hours": "MTWRFS 12p-6p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Water Pickup",
+        "Test Kits",
+        "Recycle"
+    ]
+},
+{
+    "latitude": 43.0038,
+    "longitude": -83.6494,
+    "locationName": "Genesee County Community Action Resource Department",
+    "aidAddress": "2727 Lippincott Blvd.",
+    "city": "Flint",
+    "zipcode": 48507,
+    "hours": "MTWRFS 9a-4p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Water Filters"
+    ]
+},
+{
+    "latitude": 43.0215,
+    "longitude": -83.6941,
+    "locationName": "Genesee County Community Action Resource Department",
+    "aidAddress": "601 N. Saginaw Rd.",
+    "city": "Flint",
+    "zipcode": 48502,
+    "hours": "MTWRFS 9a-4p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Water Filters"
+    ]
+},
+{
+    "latitude": 43.0143,
+    "longitude": -83.6924,
+    "locationName": "Genesee County Health Department",
+    "aidAddress": "630. S. Saginaw St., Suite 4",
+    "city": "Flint",
+    "zipcode": 48502,
+    "hours": "MWRF 8-11a, 1-4p; T 1-4p",
+    "phone": "",
+    "notes": "Adults 18+",
+    "resType": [
+        "Blood Testing"
+    ]
+},
+{
+    "latitude": 42.9787,
+    "longitude": -83.6737,
+    "locationName": "Genesee County Health Department Burton Health Center",
+    "aidAddress": "G-3373 S. Saginaw St.",
+    "city": "Burton",
+    "zipcode": 48529,
+    "hours": "MTWTR 8-11a, 1-3p",
+    "phone": "(810) 257-3833",
+    "notes": "Children ages 0-17",
+    "resType": [
+        "Blood Testing"
+    ]
+},
+{
+    "latitude": 43.0617,
+    "longitude": -83.7333,
+    "locationName": "Genesee County Land Bank",
+    "aidAddress": "2320 Pierson St.",
+    "city": "Flint",
+    "zipcode": 48504,
+    "hours": "MTWRFS 12p-6p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Test Kits",
+        "Recycle",
+        "Water Pickup"
+    ]
+},
+{
+    "latitude": 42.9954,
+    "longitude": -83.6527,
+    "locationName": "Genesee County Land Bank, Eastown Bowl Bowling Alley",
+    "aidAddress": "3001 S. Dort Hwy.",
+    "city": "Flint",
+    "zipcode": 48507,
+    "hours": "MTWRFS 12p-6p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Water Pickup",
+        "Test Kits",
+        "Recycle"
+    ]
+},
+{
+    "latitude": 43.0094,
+    "longitude": -83.6458,
+    "locationName": "Grace Emmanuel Baptist Church",
+    "aidAddress": "3502 Lapeer Rd.",
+    "city": "Flint",
+    "zipcode": 48503,
+    "hours": "MTWRFS 12-6p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Test Kits",
+        "Water Pickup",
+        "Recycle"
+    ]
+},
+{
+    "latitude": 42.9911,
+    "longitude": -83.6954,
+    "locationName": "Lincoln Park United Methodist Church",
+    "aidAddress": "3410 Fenton Rd.",
+    "city": "Flint",
+    "zipcode": 48507,
+    "hours": "MTWRFS 12p-6p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Recycle",
+        "Water Pickup"
+    ]
+},
+{
+    "latitude": 43.0186,
+    "longitude": -83.6916,
+    "locationName": "Michigan Department of Health and Human Services",
+    "aidAddress": "125 E. Union St.",
+    "city": "Flint",
+    "zipcode": 48502,
+    "hours": "MTWRFS 9a-4p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Water Filters"
+    ]
+},
+{
+    "latitude": 43.0575,
+    "longitude": -83.735,
+    "locationName": "Michigan Department of Health and Human Services",
+    "aidAddress": "4809 Clio Rd.",
+    "city": "Flint",
+    "zipcode": 48504,
+    "hours": "MTWRFS 9a-4p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Water Filters"
+    ]
+},
+{
+    "latitude": 43.0583,
+    "longitude": -83.6967,
+    "locationName": "Mt. Calvary Missionary Baptist Church",
+    "aidAddress": "4805 N. Saginaw St.",
+    "city": "Flint",
+    "zipcode": 48505,
+    "hours": "MTWRFS 12p-6p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Water Pickup",
+        "Recycle",
+        "Test Kits"
+    ]
+},
+{
+    "latitude": 43.0762,
+    "longitude": -83.6944,
+    "locationName": "New Jerusalem Full Gospel Baptist Church",
+    "aidAddress": "1035 E. Carpenter Rd.",
+    "city": "Flint",
+    "zipcode": 48505,
+    "hours": "MTWRFS 12p-6p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Water Pickup"
+    ]
+},
+{
+    "latitude": 43.0252,
+    "longitude": -83.6873,
+    "locationName": "Old Flint Farmers' Market",
+    "aidAddress": "420 E. Boulevard Dr.",
+    "city": "Flint",
+    "zipcode": 48503,
+    "hours": "MTWRFS 12p-6p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Recycle",
+        "Water Pickup"
+    ]
+},
+{
+    "latitude": 43.0434,
+    "longitude": -83.7151,
+    "locationName": "St. Mark Missionary Baptist Church",
+    "aidAddress": "3020 DuPont St.",
+    "city": "Flint",
+    "zipcode": 48504,
+    "hours": "MTWRFS 12p-6p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Water Pickup",
+        "Recycle"
+    ]
+},
+{
+    "latitude": 43.0074,
+    "longitude": -83.7283,
+    "locationName": "West Court Street Church of God",
+    "aidAddress": "2920 W. Court St.",
+    "city": "Flint",
+    "zipcode": 48503,
+    "hours": "MTWRFS 12p-6p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Water Pickup",
+        "Test Kits",
+        "Recycle"
+    ]
+},
+{
+    "latitude": 43.0841,
+    "longitude": -83.6774,
+    "locationName": "Young\u2019s Environmental Offices",
+    "aidAddress": "5305 N. Dort Hwy.",
+    "city": "Flint",
+    "zipcode": 48505,
+    "hours": "MTWRF 8a-6p",
+    "phone": "",
+    "notes": "",
+    "resType": [
+        "Recycle"
+    ]
+}
+]}

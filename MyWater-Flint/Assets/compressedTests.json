@@ -1,0 +1,915 @@
+{ "area": [
+	{
+		"latitude": 42.988662646154,
+		"longitude": -83.708532461538,
+		"numOfDangerous": 11,
+		"numOfTests": 139
+	},
+	{
+		"latitude": 42.988662646154,
+		"longitude": -83.700358076923,
+		"numOfDangerous": 4,
+		"numOfTests": 177
+	},
+	{
+		"latitude": 42.988662646154,
+		"longitude": -83.692183692308,
+		"numOfDangerous": 17,
+		"numOfTests": 173
+	},
+	{
+		"latitude": 42.988662646154,
+		"longitude": -83.684009307692,
+		"numOfDangerous": 11,
+		"numOfTests": 224
+	},
+	{
+		"latitude": 42.988662646154,
+		"longitude": -83.675834923077,
+		"numOfDangerous": 3,
+		"numOfTests": 50
+	},
+	{
+		"latitude": 42.988662646154,
+		"longitude": -83.667660538462,
+		"numOfDangerous": 11,
+		"numOfTests": 127
+	},
+	{
+		"latitude": 42.988662646154,
+		"longitude": -83.659486153846,
+		"numOfDangerous": 11,
+		"numOfTests": 202
+	},
+	{
+		"latitude": 42.988662646154,
+		"longitude": -83.651311769231,
+		"numOfDangerous": 6,
+		"numOfTests": 119
+	},
+	{
+		"latitude": 42.995925092308,
+		"longitude": -83.733055615385,
+		"numOfDangerous": 0,
+		"numOfTests": 10
+	},
+	{
+		"latitude": 42.995925092308,
+		"longitude": -83.724881230769,
+		"numOfDangerous": 17,
+		"numOfTests": 140
+	},
+	{
+		"latitude": 42.995925092308,
+		"longitude": -83.716706846154,
+		"numOfDangerous": 5,
+		"numOfTests": 52
+	},
+	{
+		"latitude": 42.995925092308,
+		"longitude": -83.708532461538,
+		"numOfDangerous": 2,
+		"numOfTests": 15
+	},
+	{
+		"latitude": 42.995925092308,
+		"longitude": -83.700358076923,
+		"numOfDangerous": 3,
+		"numOfTests": 103
+	},
+	{
+		"latitude": 42.995925092308,
+		"longitude": -83.692183692308,
+		"numOfDangerous": 22,
+		"numOfTests": 132
+	},
+	{
+		"latitude": 42.995925092308,
+		"longitude": -83.684009307692,
+		"numOfDangerous": 11,
+		"numOfTests": 176
+	},
+	{
+		"latitude": 42.995925092308,
+		"longitude": -83.675834923077,
+		"numOfDangerous": 4,
+		"numOfTests": 29
+	},
+	{
+		"latitude": 42.995925092308,
+		"longitude": -83.667660538462,
+		"numOfDangerous": 5,
+		"numOfTests": 35
+	},
+	{
+		"latitude": 42.995925092308,
+		"longitude": -83.659486153846,
+		"numOfDangerous": 9,
+		"numOfTests": 74
+	},
+	{
+		"latitude": 42.995925092308,
+		"longitude": -83.651311769231,
+		"numOfDangerous": 5,
+		"numOfTests": 120
+	},
+	{
+		"latitude": 42.995925092308,
+		"longitude": -83.643137384615,
+		"numOfDangerous": 0,
+		"numOfTests": 21
+	},
+	{
+		"latitude": 43.003187538462,
+		"longitude": -83.733055615385,
+		"numOfDangerous": 8,
+		"numOfTests": 112
+	},
+	{
+		"latitude": 43.003187538462,
+		"longitude": -83.724881230769,
+		"numOfDangerous": 13,
+		"numOfTests": 174
+	},
+	{
+		"latitude": 43.003187538462,
+		"longitude": -83.716706846154,
+		"numOfDangerous": 12,
+		"numOfTests": 171
+	},
+	{
+		"latitude": 43.003187538462,
+		"longitude": -83.708532461538,
+		"numOfDangerous": 12,
+		"numOfTests": 107
+	},
+	{
+		"latitude": 43.003187538462,
+		"longitude": -83.700358076923,
+		"numOfDangerous": 0,
+		"numOfTests": 1
+	},
+	{
+		"latitude": 43.003187538462,
+		"longitude": -83.692183692308,
+		"numOfDangerous": 1,
+		"numOfTests": 35
+	},
+	{
+		"latitude": 43.003187538462,
+		"longitude": -83.684009307692,
+		"numOfDangerous": 2,
+		"numOfTests": 37
+	},
+	{
+		"latitude": 43.003187538462,
+		"longitude": -83.675834923077,
+		"numOfDangerous": 7,
+		"numOfTests": 66
+	},
+	{
+		"latitude": 43.003187538462,
+		"longitude": -83.667660538462,
+		"numOfDangerous": 4,
+		"numOfTests": 33
+	},
+	{
+		"latitude": 43.003187538462,
+		"longitude": -83.659486153846,
+		"numOfDangerous": 12,
+		"numOfTests": 71
+	},
+	{
+		"latitude": 43.003187538462,
+		"longitude": -83.651311769231,
+		"numOfDangerous": 1,
+		"numOfTests": 43
+	},
+	{
+		"latitude": 43.003187538462,
+		"longitude": -83.643137384615,
+		"numOfDangerous": 0,
+		"numOfTests": 1
+	},
+	{
+		"latitude": 43.010449984615,
+		"longitude": -83.733055615385,
+		"numOfDangerous": 12,
+		"numOfTests": 107
+	},
+	{
+		"latitude": 43.010449984615,
+		"longitude": -83.724881230769,
+		"numOfDangerous": 12,
+		"numOfTests": 162
+	},
+	{
+		"latitude": 43.010449984615,
+		"longitude": -83.716706846154,
+		"numOfDangerous": 8,
+		"numOfTests": 84
+	},
+	{
+		"latitude": 43.010449984615,
+		"longitude": -83.708532461538,
+		"numOfDangerous": 4,
+		"numOfTests": 74
+	},
+	{
+		"latitude": 43.010449984615,
+		"longitude": -83.700358076923,
+		"numOfDangerous": 7,
+		"numOfTests": 31
+	},
+	{
+		"latitude": 43.010449984615,
+		"longitude": -83.692183692308,
+		"numOfDangerous": 5,
+		"numOfTests": 28
+	},
+	{
+		"latitude": 43.010449984615,
+		"longitude": -83.684009307692,
+		"numOfDangerous": 7,
+		"numOfTests": 41
+	},
+	{
+		"latitude": 43.010449984615,
+		"longitude": -83.675834923077,
+		"numOfDangerous": 4,
+		"numOfTests": 15
+	},
+	{
+		"latitude": 43.010449984615,
+		"longitude": -83.667660538462,
+		"numOfDangerous": 5,
+		"numOfTests": 64
+	},
+	{
+		"latitude": 43.010449984615,
+		"longitude": -83.659486153846,
+		"numOfDangerous": 6,
+		"numOfTests": 90
+	},
+	{
+		"latitude": 43.010449984615,
+		"longitude": -83.651311769231,
+		"numOfDangerous": 3,
+		"numOfTests": 65
+	},
+	{
+		"latitude": 43.010449984615,
+		"longitude": -83.643137384615,
+		"numOfDangerous": 4,
+		"numOfTests": 73
+	},
+	{
+		"latitude": 43.010449984615,
+		"longitude": -83.634963,
+		"numOfDangerous": 6,
+		"numOfTests": 172
+	},
+	{
+		"latitude": 43.017712430769,
+		"longitude": -83.733055615385,
+		"numOfDangerous": 1,
+		"numOfTests": 2
+	},
+	{
+		"latitude": 43.017712430769,
+		"longitude": -83.724881230769,
+		"numOfDangerous": 18,
+		"numOfTests": 148
+	},
+	{
+		"latitude": 43.017712430769,
+		"longitude": -83.716706846154,
+		"numOfDangerous": 12,
+		"numOfTests": 130
+	},
+	{
+		"latitude": 43.017712430769,
+		"longitude": -83.708532461538,
+		"numOfDangerous": 10,
+		"numOfTests": 77
+	},
+	{
+		"latitude": 43.017712430769,
+		"longitude": -83.700358076923,
+		"numOfDangerous": 1,
+		"numOfTests": 21
+	},
+	{
+		"latitude": 43.017712430769,
+		"longitude": -83.692183692308,
+		"numOfDangerous": 1,
+		"numOfTests": 21
+	},
+	{
+		"latitude": 43.017712430769,
+		"longitude": -83.684009307692,
+		"numOfDangerous": 6,
+		"numOfTests": 29
+	},
+	{
+		"latitude": 43.017712430769,
+		"longitude": -83.675834923077,
+		"numOfDangerous": 4,
+		"numOfTests": 26
+	},
+	{
+		"latitude": 43.017712430769,
+		"longitude": -83.667660538462,
+		"numOfDangerous": 12,
+		"numOfTests": 172
+	},
+	{
+		"latitude": 43.017712430769,
+		"longitude": -83.659486153846,
+		"numOfDangerous": 15,
+		"numOfTests": 189
+	},
+	{
+		"latitude": 43.017712430769,
+		"longitude": -83.651311769231,
+		"numOfDangerous": 9,
+		"numOfTests": 40
+	},
+	{
+		"latitude": 43.017712430769,
+		"longitude": -83.643137384615,
+		"numOfDangerous": 0,
+		"numOfTests": 1
+	},
+	{
+		"latitude": 43.017712430769,
+		"longitude": -83.634963,
+		"numOfDangerous": 0,
+		"numOfTests": 75
+	},
+	{
+		"latitude": 43.024974876923,
+		"longitude": -83.724881230769,
+		"numOfDangerous": 12,
+		"numOfTests": 139
+	},
+	{
+		"latitude": 43.024974876923,
+		"longitude": -83.716706846154,
+		"numOfDangerous": 15,
+		"numOfTests": 116
+	},
+	{
+		"latitude": 43.024974876923,
+		"longitude": -83.708532461538,
+		"numOfDangerous": 5,
+		"numOfTests": 66
+	},
+	{
+		"latitude": 43.024974876923,
+		"longitude": -83.700358076923,
+		"numOfDangerous": 3,
+		"numOfTests": 23
+	},
+	{
+		"latitude": 43.024974876923,
+		"longitude": -83.692183692308,
+		"numOfDangerous": 2,
+		"numOfTests": 31
+	},
+	{
+		"latitude": 43.024974876923,
+		"longitude": -83.684009307692,
+		"numOfDangerous": 0,
+		"numOfTests": 3
+	},
+	{
+		"latitude": 43.024974876923,
+		"longitude": -83.675834923077,
+		"numOfDangerous": 4,
+		"numOfTests": 43
+	},
+	{
+		"latitude": 43.024974876923,
+		"longitude": -83.667660538462,
+		"numOfDangerous": 1,
+		"numOfTests": 41
+	},
+	{
+		"latitude": 43.024974876923,
+		"longitude": -83.659486153846,
+		"numOfDangerous": 23,
+		"numOfTests": 261
+	},
+	{
+		"latitude": 43.024974876923,
+		"longitude": -83.651311769231,
+		"numOfDangerous": 15,
+		"numOfTests": 151
+	},
+	{
+		"latitude": 43.024974876923,
+		"longitude": -83.643137384615,
+		"numOfDangerous": 0,
+		"numOfTests": 4
+	},
+	{
+		"latitude": 43.024974876923,
+		"longitude": -83.634963,
+		"numOfDangerous": 0,
+		"numOfTests": 14
+	},
+	{
+		"latitude": 43.032237323077,
+		"longitude": -83.733055615385,
+		"numOfDangerous": 4,
+		"numOfTests": 111
+	},
+	{
+		"latitude": 43.032237323077,
+		"longitude": -83.724881230769,
+		"numOfDangerous": 24,
+		"numOfTests": 188
+	},
+	{
+		"latitude": 43.032237323077,
+		"longitude": -83.716706846154,
+		"numOfDangerous": 9,
+		"numOfTests": 114
+	},
+	{
+		"latitude": 43.032237323077,
+		"longitude": -83.708532461538,
+		"numOfDangerous": 11,
+		"numOfTests": 90
+	},
+	{
+		"latitude": 43.032237323077,
+		"longitude": -83.700358076923,
+		"numOfDangerous": 7,
+		"numOfTests": 68
+	},
+	{
+		"latitude": 43.032237323077,
+		"longitude": -83.692183692308,
+		"numOfDangerous": 2,
+		"numOfTests": 53
+	},
+	{
+		"latitude": 43.032237323077,
+		"longitude": -83.684009307692,
+		"numOfDangerous": 0,
+		"numOfTests": 52
+	},
+	{
+		"latitude": 43.032237323077,
+		"longitude": -83.675834923077,
+		"numOfDangerous": 2,
+		"numOfTests": 33
+	},
+	{
+		"latitude": 43.032237323077,
+		"longitude": -83.667660538462,
+		"numOfDangerous": 5,
+		"numOfTests": 66
+	},
+	{
+		"latitude": 43.032237323077,
+		"longitude": -83.659486153846,
+		"numOfDangerous": 13,
+		"numOfTests": 163
+	},
+	{
+		"latitude": 43.032237323077,
+		"longitude": -83.651311769231,
+		"numOfDangerous": 1,
+		"numOfTests": 65
+	},
+	{
+		"latitude": 43.032237323077,
+		"longitude": -83.643137384615,
+		"numOfDangerous": 0,
+		"numOfTests": 9
+	},
+	{
+		"latitude": 43.032237323077,
+		"longitude": -83.634963,
+		"numOfDangerous": 8,
+		"numOfTests": 77
+	},
+	{
+		"latitude": 43.039499769231,
+		"longitude": -83.733055615385,
+		"numOfDangerous": 3,
+		"numOfTests": 54
+	},
+	{
+		"latitude": 43.039499769231,
+		"longitude": -83.724881230769,
+		"numOfDangerous": 17,
+		"numOfTests": 158
+	},
+	{
+		"latitude": 43.039499769231,
+		"longitude": -83.716706846154,
+		"numOfDangerous": 6,
+		"numOfTests": 58
+	},
+	{
+		"latitude": 43.039499769231,
+		"longitude": -83.708532461538,
+		"numOfDangerous": 10,
+		"numOfTests": 75
+	},
+	{
+		"latitude": 43.039499769231,
+		"longitude": -83.700358076923,
+		"numOfDangerous": 7,
+		"numOfTests": 79
+	},
+	{
+		"latitude": 43.039499769231,
+		"longitude": -83.692183692308,
+		"numOfDangerous": 4,
+		"numOfTests": 38
+	},
+	{
+		"latitude": 43.039499769231,
+		"longitude": -83.684009307692,
+		"numOfDangerous": 1,
+		"numOfTests": 5
+	},
+	{
+		"latitude": 43.039499769231,
+		"longitude": -83.675834923077,
+		"numOfDangerous": 1,
+		"numOfTests": 8
+	},
+	{
+		"latitude": 43.039499769231,
+		"longitude": -83.667660538462,
+		"numOfDangerous": 6,
+		"numOfTests": 56
+	},
+	{
+		"latitude": 43.039499769231,
+		"longitude": -83.659486153846,
+		"numOfDangerous": 16,
+		"numOfTests": 81
+	},
+	{
+		"latitude": 43.039499769231,
+		"longitude": -83.651311769231,
+		"numOfDangerous": 3,
+		"numOfTests": 49
+	},
+	{
+		"latitude": 43.039499769231,
+		"longitude": -83.643137384615,
+		"numOfDangerous": 9,
+		"numOfTests": 106
+	},
+	{
+		"latitude": 43.039499769231,
+		"longitude": -83.634963,
+		"numOfDangerous": 16,
+		"numOfTests": 186
+	},
+	{
+		"latitude": 43.046762215385,
+		"longitude": -83.724881230769,
+		"numOfDangerous": 15,
+		"numOfTests": 118
+	},
+	{
+		"latitude": 43.046762215385,
+		"longitude": -83.716706846154,
+		"numOfDangerous": 13,
+		"numOfTests": 78
+	},
+	{
+		"latitude": 43.046762215385,
+		"longitude": -83.708532461538,
+		"numOfDangerous": 8,
+		"numOfTests": 97
+	},
+	{
+		"latitude": 43.046762215385,
+		"longitude": -83.700358076923,
+		"numOfDangerous": 12,
+		"numOfTests": 85
+	},
+	{
+		"latitude": 43.046762215385,
+		"longitude": -83.692183692308,
+		"numOfDangerous": 7,
+		"numOfTests": 64
+	},
+	{
+		"latitude": 43.046762215385,
+		"longitude": -83.684009307692,
+		"numOfDangerous": 1,
+		"numOfTests": 8
+	},
+	{
+		"latitude": 43.046762215385,
+		"longitude": -83.667660538462,
+		"numOfDangerous": 9,
+		"numOfTests": 73
+	},
+	{
+		"latitude": 43.046762215385,
+		"longitude": -83.659486153846,
+		"numOfDangerous": 10,
+		"numOfTests": 98
+	},
+	{
+		"latitude": 43.046762215385,
+		"longitude": -83.651311769231,
+		"numOfDangerous": 7,
+		"numOfTests": 108
+	},
+	{
+		"latitude": 43.046762215385,
+		"longitude": -83.643137384615,
+		"numOfDangerous": 7,
+		"numOfTests": 175
+	},
+	{
+		"latitude": 43.046762215385,
+		"longitude": -83.634963,
+		"numOfDangerous": 2,
+		"numOfTests": 136
+	},
+	{
+		"latitude": 43.054024661538,
+		"longitude": -83.724881230769,
+		"numOfDangerous": 6,
+		"numOfTests": 102
+	},
+	{
+		"latitude": 43.054024661538,
+		"longitude": -83.716706846154,
+		"numOfDangerous": 8,
+		"numOfTests": 94
+	},
+	{
+		"latitude": 43.054024661538,
+		"longitude": -83.708532461538,
+		"numOfDangerous": 2,
+		"numOfTests": 39
+	},
+	{
+		"latitude": 43.054024661538,
+		"longitude": -83.700358076923,
+		"numOfDangerous": 11,
+		"numOfTests": 79
+	},
+	{
+		"latitude": 43.054024661538,
+		"longitude": -83.692183692308,
+		"numOfDangerous": 3,
+		"numOfTests": 35
+	},
+	{
+		"latitude": 43.054024661538,
+		"longitude": -83.684009307692,
+		"numOfDangerous": 2,
+		"numOfTests": 30
+	},
+	{
+		"latitude": 43.054024661538,
+		"longitude": -83.675834923077,
+		"numOfDangerous": 0,
+		"numOfTests": 1
+	},
+	{
+		"latitude": 43.054024661538,
+		"longitude": -83.667660538462,
+		"numOfDangerous": 0,
+		"numOfTests": 3
+	},
+	{
+		"latitude": 43.054024661538,
+		"longitude": -83.659486153846,
+		"numOfDangerous": 1,
+		"numOfTests": 11
+	},
+	{
+		"latitude": 43.054024661538,
+		"longitude": -83.651311769231,
+		"numOfDangerous": 2,
+		"numOfTests": 63
+	},
+	{
+		"latitude": 43.054024661538,
+		"longitude": -83.643137384615,
+		"numOfDangerous": 5,
+		"numOfTests": 90
+	},
+	{
+		"latitude": 43.054024661538,
+		"longitude": -83.634963,
+		"numOfDangerous": 1,
+		"numOfTests": 65
+	},
+	{
+		"latitude": 43.061287107692,
+		"longitude": -83.733055615385,
+		"numOfDangerous": 0,
+		"numOfTests": 1
+	},
+	{
+		"latitude": 43.061287107692,
+		"longitude": -83.724881230769,
+		"numOfDangerous": 4,
+		"numOfTests": 154
+	},
+	{
+		"latitude": 43.061287107692,
+		"longitude": -83.716706846154,
+		"numOfDangerous": 0,
+		"numOfTests": 48
+	},
+	{
+		"latitude": 43.061287107692,
+		"longitude": -83.708532461538,
+		"numOfDangerous": 6,
+		"numOfTests": 77
+	},
+	{
+		"latitude": 43.061287107692,
+		"longitude": -83.700358076923,
+		"numOfDangerous": 4,
+		"numOfTests": 80
+	},
+	{
+		"latitude": 43.061287107692,
+		"longitude": -83.692183692308,
+		"numOfDangerous": 2,
+		"numOfTests": 86
+	},
+	{
+		"latitude": 43.061287107692,
+		"longitude": -83.684009307692,
+		"numOfDangerous": 2,
+		"numOfTests": 36
+	},
+	{
+		"latitude": 43.061287107692,
+		"longitude": -83.675834923077,
+		"numOfDangerous": 1,
+		"numOfTests": 6
+	},
+	{
+		"latitude": 43.061287107692,
+		"longitude": -83.667660538462,
+		"numOfDangerous": 0,
+		"numOfTests": 1
+	},
+	{
+		"latitude": 43.061287107692,
+		"longitude": -83.659486153846,
+		"numOfDangerous": 0,
+		"numOfTests": 9
+	},
+	{
+		"latitude": 43.061287107692,
+		"longitude": -83.651311769231,
+		"numOfDangerous": 1,
+		"numOfTests": 91
+	},
+	{
+		"latitude": 43.061287107692,
+		"longitude": -83.643137384615,
+		"numOfDangerous": 0,
+		"numOfTests": 5
+	},
+	{
+		"latitude": 43.068549553846,
+		"longitude": -83.724881230769,
+		"numOfDangerous": 4,
+		"numOfTests": 117
+	},
+	{
+		"latitude": 43.068549553846,
+		"longitude": -83.716706846154,
+		"numOfDangerous": 4,
+		"numOfTests": 118
+	},
+	{
+		"latitude": 43.068549553846,
+		"longitude": -83.708532461538,
+		"numOfDangerous": 1,
+		"numOfTests": 91
+	},
+	{
+		"latitude": 43.068549553846,
+		"longitude": -83.700358076923,
+		"numOfDangerous": 5,
+		"numOfTests": 42
+	},
+	{
+		"latitude": 43.068549553846,
+		"longitude": -83.692183692308,
+		"numOfDangerous": 5,
+		"numOfTests": 44
+	},
+	{
+		"latitude": 43.068549553846,
+		"longitude": -83.684009307692,
+		"numOfDangerous": 2,
+		"numOfTests": 15
+	},
+	{
+		"latitude": 43.068549553846,
+		"longitude": -83.675834923077,
+		"numOfDangerous": 0,
+		"numOfTests": 19
+	},
+	{
+		"latitude": 43.068549553846,
+		"longitude": -83.667660538462,
+		"numOfDangerous": 0,
+		"numOfTests": 2
+	},
+	{
+		"latitude": 43.068549553846,
+		"longitude": -83.659486153846,
+		"numOfDangerous": 0,
+		"numOfTests": 3
+	},
+	{
+		"latitude": 43.068549553846,
+		"longitude": -83.651311769231,
+		"numOfDangerous": 2,
+		"numOfTests": 55
+	},
+	{
+		"latitude": 43.068549553846,
+		"longitude": -83.643137384615,
+		"numOfDangerous": 0,
+		"numOfTests": 7
+	},
+	{
+		"latitude": 43.075812,
+		"longitude": -83.724881230769,
+		"numOfDangerous": 1,
+		"numOfTests": 58
+	},
+	{
+		"latitude": 43.075812,
+		"longitude": -83.716706846154,
+		"numOfDangerous": 8,
+		"numOfTests": 146
+	},
+	{
+		"latitude": 43.075812,
+		"longitude": -83.708532461538,
+		"numOfDangerous": 8,
+		"numOfTests": 108
+	},
+	{
+		"latitude": 43.075812,
+		"longitude": -83.700358076923,
+		"numOfDangerous": 2,
+		"numOfTests": 88
+	},
+	{
+		"latitude": 43.075812,
+		"longitude": -83.692183692308,
+		"numOfDangerous": 1,
+		"numOfTests": 44
+	},
+	{
+		"latitude": 43.075812,
+		"longitude": -83.684009307692,
+		"numOfDangerous": 5,
+		"numOfTests": 50
+	},
+	{
+		"latitude": 43.075812,
+		"longitude": -83.675834923077,
+		"numOfDangerous": 1,
+		"numOfTests": 31
+	},
+	{
+		"latitude": 43.075812,
+		"longitude": -83.667660538462,
+		"numOfDangerous": 3,
+		"numOfTests": 28
+	},
+	{
+		"latitude": 43.075812,
+		"longitude": -83.659486153846,
+		"numOfDangerous": 0,
+		"numOfTests": 19
+	},
+	{
+		"latitude": 43.083074446154,
+		"longitude": -83.708532461538,
+		"numOfDangerous": 0,
+		"numOfTests": 1
+	}
+]
+}

@@ -7,6 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		485E6CC252A7C41E7C7C41AF /* Pods_MyWater_FlintUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380407B67B74A4361A4C38BA /* Pods_MyWater_FlintUITests.framework */; };
+		520544731E6E938A00F08739 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520544721E6E938A00F08739 /* Resource.swift */; };
+		520544751E6E9D1600F08739 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520544741E6E9D1600F08739 /* Resources.swift */; };
+		521373FE1E6A56E700B871C7 /* LeadLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521373FD1E6A56E700B871C7 /* LeadLevels.swift */; };
+		521374031E6A5E2200B871C7 /* compressedTests.json in Resources */ = {isa = PBXBuildFile; fileRef = 521374001E6A5E2200B871C7 /* compressedTests.json */; };
+		521374041E6A5E2200B871C7 /* mixedData.json in Resources */ = {isa = PBXBuildFile; fileRef = 521374011E6A5E2200B871C7 /* mixedData.json */; };
+		521374051E6A5E2200B871C7 /* providers.json in Resources */ = {isa = PBXBuildFile; fileRef = 521374021E6A5E2200B871C7 /* providers.json */; };
+		521374071E6A6F4200B871C7 /* LeadLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521374061E6A6F4200B871C7 /* LeadLevel.swift */; };
+		521374091E6A871D00B871C7 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521374081E6A871D00B871C7 /* Property.swift */; };
+		5213740B1E6A872B00B871C7 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5213740A1E6A872B00B871C7 /* Properties.swift */; };
+		521374411E6A916300B871C7 /* bloodmapicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213740D1E6A916300B871C7 /* bloodmapicon.png */; };
+		521374421E6A916300B871C7 /* bloodmapicongray.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213740E1E6A916300B871C7 /* bloodmapicongray.png */; };
+		521374431E6A916300B871C7 /* browncircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213740F1E6A916300B871C7 /* browncircle.png */; };
+		521374441E6A916300B871C7 /* browncirclenoline.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374101E6A916300B871C7 /* browncirclenoline.png */; };
+		521374451E6A916300B871C7 /* constructionmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374111E6A916300B871C7 /* constructionmap.png */; };
+		521374461E6A916300B871C7 /* constructionmapgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374121E6A916300B871C7 /* constructionmapgray.png */; };
+		521374471E6A916300B871C7 /* filtermapicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374131E6A916300B871C7 /* filtermapicon.png */; };
+		521374481E6A916300B871C7 /* flitermapicongray.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374141E6A916300B871C7 /* flitermapicongray.png */; };
+		521374491E6A916300B871C7 /* graycircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374151E6A916300B871C7 /* graycircle.png */; };
+		5213744A1E6A916300B871C7 /* greycirclenoline.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374161E6A916300B871C7 /* greycirclenoline.png */; };
+		5213744B1E6A916300B871C7 /* ic_action_name.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374171E6A916300B871C7 /* ic_action_name.png */; };
+		5213744C1E6A916300B871C7 /* ic_add_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374181E6A916300B871C7 /* ic_add_blue.png */; };
+		5213744D1E6A916300B871C7 /* ic_aerator.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374191E6A916300B871C7 /* ic_aerator.png */; };
+		5213744E1E6A916300B871C7 /* ic_bloodtest_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213741A1E6A916300B871C7 /* ic_bloodtest_white.png */; };
+		5213744F1E6A916300B871C7 /* ic_call_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213741B1E6A916300B871C7 /* ic_call_blue.png */; };
+		521374501E6A916300B871C7 /* ic_close_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213741C1E6A916300B871C7 /* ic_close_black.png */; };
+		521374511E6A916300B871C7 /* ic_close_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213741D1E6A916300B871C7 /* ic_close_white.png */; };
+		521374521E6A916300B871C7 /* ic_filter_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213741E1E6A916300B871C7 /* ic_filter_white.png */; };
+		521374531E6A916300B871C7 /* ic_info_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213741F1E6A916300B871C7 /* ic_info_black.png */; };
+		521374541E6A916300B871C7 /* ic_install.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374201E6A916300B871C7 /* ic_install.png */; };
+		521374551E6A916300B871C7 /* ic_leadtest_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374211E6A916300B871C7 /* ic_leadtest_white.png */; };
+		521374561E6A916300B871C7 /* ic_mailbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374221E6A916300B871C7 /* ic_mailbox.png */; };
+		521374571E6A916300B871C7 /* ic_map_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374231E6A916300B871C7 /* ic_map_blue.png */; };
+		521374581E6A916300B871C7 /* ic_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374241E6A916300B871C7 /* ic_map.png */; };
+		521374591E6A916300B871C7 /* ic_plus_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374251E6A916300B871C7 /* ic_plus_blue.png */; };
+		5213745A1E6A916300B871C7 /* ic_recycle_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374261E6A916300B871C7 /* ic_recycle_white.png */; };
+		5213745B1E6A916300B871C7 /* ic_report_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374271E6A916300B871C7 /* ic_report_blue.png */; };
+		5213745C1E6A916300B871C7 /* ic_report.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374281E6A916300B871C7 /* ic_report.png */; };
+		5213745D1E6A916300B871C7 /* ic_review_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374291E6A916300B871C7 /* ic_review_black.png */; };
+		5213745E1E6A916300B871C7 /* ic_review_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213742A1E6A916300B871C7 /* ic_review_blue.png */; };
+		5213745F1E6A916300B871C7 /* ic_star_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213742B1E6A916300B871C7 /* ic_star_blue.png */; };
+		521374601E6A916300B871C7 /* ic_star_border.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213742C1E6A916300B871C7 /* ic_star_border.png */; };
+		521374611E6A916300B871C7 /* ic_star_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213742D1E6A916300B871C7 /* ic_star_filled.png */; };
+		521374621E6A916300B871C7 /* ic_start_border_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213742E1E6A916300B871C7 /* ic_start_border_blue.png */; };
+		521374631E6A916300B871C7 /* ic_water_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213742F1E6A916300B871C7 /* ic_water_white.png */; };
+		521374641E6A916300B871C7 /* ic_water.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374301E6A916300B871C7 /* ic_water.png */; };
+		521374651E6A916300B871C7 /* leadtestmapicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374311E6A916300B871C7 /* leadtestmapicon.png */; };
+		521374661E6A916300B871C7 /* leadtestmapicongray.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374321E6A916300B871C7 /* leadtestmapicongray.png */; };
+		521374671E6A916300B871C7 /* locationmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374331E6A916300B871C7 /* locationmap.png */; };
+		521374681E6A916300B871C7 /* locationmapgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374341E6A916300B871C7 /* locationmapgray.png */; };
+		521374691E6A916300B871C7 /* pipesmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374351E6A916300B871C7 /* pipesmap.png */; };
+		5213746A1E6A916300B871C7 /* pipesmapgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374361E6A916300B871C7 /* pipesmapgray.png */; };
+		5213746B1E6A916300B871C7 /* recyclemapicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374371E6A916300B871C7 /* recyclemapicon.png */; };
+		5213746C1E6A916300B871C7 /* recyclemapicongray.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374381E6A916300B871C7 /* recyclemapicongray.png */; };
+		5213746D1E6A916300B871C7 /* redcircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374391E6A916300B871C7 /* redcircle.png */; };
+		5213746E1E6A916300B871C7 /* redcirclenoline.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213743A1E6A916300B871C7 /* redcirclenoline.png */; };
+		5213746F1E6A916300B871C7 /* savedmapgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213743B1E6A916300B871C7 /* savedmapgray.png */; };
+		521374701E6A916300B871C7 /* unselectedmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213743C1E6A916300B871C7 /* unselectedmap.png */; };
+		521374711E6A916300B871C7 /* watermapicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213743D1E6A916300B871C7 /* watermapicon.png */; };
+		521374721E6A916300B871C7 /* watermapicongray.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213743E1E6A916300B871C7 /* watermapicongray.png */; };
+		521374731E6A916300B871C7 /* yellowcircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5213743F1E6A916300B871C7 /* yellowcircle.png */; };
+		521374741E6A916300B871C7 /* yellowcirclenoline.png in Resources */ = {isa = PBXBuildFile; fileRef = 521374401E6A916300B871C7 /* yellowcirclenoline.png */; };
+		522CB5441E4EF582005A4F84 /* NewsItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522CB5431E4EF582005A4F84 /* NewsItemTableViewCell.swift */; };
+		5239DC301E67C8CD00B7719A /* GoogleMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239DC2F1E67C8CD00B7719A /* GoogleMapsViewController.swift */; };
+		5239DC331E67D98200B7719A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239DC321E67D98200B7719A /* Colors.swift */; };
+		52455BF01E6600DE00205F59 /* TestMyWaterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52455BEF1E6600DE00205F59 /* TestMyWaterPageViewController.swift */; };
+		52620FDB1E662782001C5E2F /* CleanMyAeratorPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52620FDA1E662782001C5E2F /* CleanMyAeratorPageViewController.swift */; };
+		52BA32A11E6AA01600721CB2 /* MyDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA32A01E6AA01600721CB2 /* MyDb.swift */; };
+		52BCD12A1E74EAB4008EEF8C /* ic_launcher152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD1291E74EAB4008EEF8C /* ic_launcher152x152.png */; };
+		52BCD12C1E74EB63008EEF8C /* ic_launcher180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD12B1E74EB63008EEF8C /* ic_launcher180x180.png */; };
+		52BCD1371E74ED5C008EEF8C /* ic_launcher20x20.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD12D1E74ED5C008EEF8C /* ic_launcher20x20.png */; };
+		52BCD1381E74ED5C008EEF8C /* ic_launcher29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD12E1E74ED5C008EEF8C /* ic_launcher29x29.png */; };
+		52BCD1391E74ED5C008EEF8C /* ic_launcher58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD12F1E74ED5C008EEF8C /* ic_launcher58x58.png */; };
+		52BCD13A1E74ED5C008EEF8C /* ic_launcher40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD1301E74ED5C008EEF8C /* ic_launcher40x40.png */; };
+		52BCD13B1E74ED5C008EEF8C /* ic_launcher60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD1311E74ED5C008EEF8C /* ic_launcher60x60.png */; };
+		52BCD13C1E74ED5C008EEF8C /* ic_launcher76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD1321E74ED5C008EEF8C /* ic_launcher76x76.png */; };
+		52BCD13D1E74ED5C008EEF8C /* ic_launcher80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD1331E74ED5C008EEF8C /* ic_launcher80x80.png */; };
+		52BCD13E1E74ED5C008EEF8C /* ic_launcher87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD1341E74ED5C008EEF8C /* ic_launcher87x87.png */; };
+		52BCD13F1E74ED5C008EEF8C /* ic_launcher120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD1351E74ED5C008EEF8C /* ic_launcher120x120.png */; };
+		52BCD1401E74ED5C008EEF8C /* ic_launcher167x167.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD1361E74ED5C008EEF8C /* ic_launcher167x167.png */; };
 		52D8E9491E4EB0C5004EB76B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8E9481E4EB0C5004EB76B /* AppDelegate.swift */; };
 		52D8E94B1E4EB0C5004EB76B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8E94A1E4EB0C5004EB76B /* ViewController.swift */; };
 		52D8E94E1E4EB0C5004EB76B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D8E94C1E4EB0C5004EB76B /* Main.storyboard */; };
@@ -14,6 +94,11 @@
 		52D8E9531E4EB0C5004EB76B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D8E9511E4EB0C5004EB76B /* LaunchScreen.storyboard */; };
 		52D8E95E1E4EB0C5004EB76B /* MyWater_FlintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8E95D1E4EB0C5004EB76B /* MyWater_FlintTests.swift */; };
 		52D8E9691E4EB0C5004EB76B /* MyWater_FlintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8E9681E4EB0C5004EB76B /* MyWater_FlintUITests.swift */; };
+		52D8E9771E4EB467004EB76B /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8E9761E4EB467004EB76B /* AboutUsViewController.swift */; };
+		52D8E9821E4EBEC2004EB76B /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8E9811E4EBEC2004EB76B /* NewsViewController.swift */; };
+		52D8E9851E4EBF4C004EB76B /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8E9841E4EBF4C004EB76B /* NewsItem.swift */; };
+		8C324D706CB33FA0D131211E /* Pods_MyWater_Flint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA74031209701912B4D6263D /* Pods_MyWater_Flint.framework */; };
+		C080D4A7619FE1E2BAD5CF14 /* Pods_MyWater_FlintTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8323A59C4955F45472B690 /* Pods_MyWater_FlintTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +119,89 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B8323A59C4955F45472B690 /* Pods_MyWater_FlintTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWater_FlintTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE2C7D88464D4E382D9AF59 /* Pods-MyWater-FlintTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWater-FlintTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyWater-FlintTests/Pods-MyWater-FlintTests.release.xcconfig"; sourceTree = "<group>"; };
+		380407B67B74A4361A4C38BA /* Pods_MyWater_FlintUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWater_FlintUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CF371F28D8C9159D63E150 /* Pods-MyWater-FlintUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWater-FlintUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyWater-FlintUITests/Pods-MyWater-FlintUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		520544721E6E938A00F08739 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Models/Resource.swift; sourceTree = "<group>"; };
+		520544741E6E9D1600F08739 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Resources.swift; path = Models/Resources.swift; sourceTree = "<group>"; };
+		521373FD1E6A56E700B871C7 /* LeadLevels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeadLevels.swift; path = Models/LeadLevels.swift; sourceTree = "<group>"; };
+		521374001E6A5E2200B871C7 /* compressedTests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = compressedTests.json; path = Assets/compressedTests.json; sourceTree = "<group>"; };
+		521374011E6A5E2200B871C7 /* mixedData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = mixedData.json; path = Assets/mixedData.json; sourceTree = "<group>"; };
+		521374021E6A5E2200B871C7 /* providers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = providers.json; path = Assets/providers.json; sourceTree = "<group>"; };
+		521374061E6A6F4200B871C7 /* LeadLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeadLevel.swift; path = Models/LeadLevel.swift; sourceTree = "<group>"; };
+		521374081E6A871D00B871C7 /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Models/Property.swift; sourceTree = "<group>"; };
+		5213740A1E6A872B00B871C7 /* Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Properties.swift; path = Models/Properties.swift; sourceTree = "<group>"; };
+		5213740D1E6A916300B871C7 /* bloodmapicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bloodmapicon.png; path = Drawables/bloodmapicon.png; sourceTree = "<group>"; };
+		5213740E1E6A916300B871C7 /* bloodmapicongray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bloodmapicongray.png; path = Drawables/bloodmapicongray.png; sourceTree = "<group>"; };
+		5213740F1E6A916300B871C7 /* browncircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = browncircle.png; path = Drawables/browncircle.png; sourceTree = "<group>"; };
+		521374101E6A916300B871C7 /* browncirclenoline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = browncirclenoline.png; path = Drawables/browncirclenoline.png; sourceTree = "<group>"; };
+		521374111E6A916300B871C7 /* constructionmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = constructionmap.png; path = Drawables/constructionmap.png; sourceTree = "<group>"; };
+		521374121E6A916300B871C7 /* constructionmapgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = constructionmapgray.png; path = Drawables/constructionmapgray.png; sourceTree = "<group>"; };
+		521374131E6A916300B871C7 /* filtermapicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = filtermapicon.png; path = Drawables/filtermapicon.png; sourceTree = "<group>"; };
+		521374141E6A916300B871C7 /* flitermapicongray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flitermapicongray.png; path = Drawables/flitermapicongray.png; sourceTree = "<group>"; };
+		521374151E6A916300B871C7 /* graycircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = graycircle.png; path = Drawables/graycircle.png; sourceTree = "<group>"; };
+		521374161E6A916300B871C7 /* greycirclenoline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greycirclenoline.png; path = Drawables/greycirclenoline.png; sourceTree = "<group>"; };
+		521374171E6A916300B871C7 /* ic_action_name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_name.png; path = Drawables/ic_action_name.png; sourceTree = "<group>"; };
+		521374181E6A916300B871C7 /* ic_add_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_add_blue.png; path = Drawables/ic_add_blue.png; sourceTree = "<group>"; };
+		521374191E6A916300B871C7 /* ic_aerator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_aerator.png; path = Drawables/ic_aerator.png; sourceTree = "<group>"; };
+		5213741A1E6A916300B871C7 /* ic_bloodtest_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_bloodtest_white.png; path = Drawables/ic_bloodtest_white.png; sourceTree = "<group>"; };
+		5213741B1E6A916300B871C7 /* ic_call_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_call_blue.png; path = Drawables/ic_call_blue.png; sourceTree = "<group>"; };
+		5213741C1E6A916300B871C7 /* ic_close_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_close_black.png; path = Drawables/ic_close_black.png; sourceTree = "<group>"; };
+		5213741D1E6A916300B871C7 /* ic_close_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_close_white.png; path = Drawables/ic_close_white.png; sourceTree = "<group>"; };
+		5213741E1E6A916300B871C7 /* ic_filter_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_filter_white.png; path = Drawables/ic_filter_white.png; sourceTree = "<group>"; };
+		5213741F1E6A916300B871C7 /* ic_info_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_info_black.png; path = Drawables/ic_info_black.png; sourceTree = "<group>"; };
+		521374201E6A916300B871C7 /* ic_install.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_install.png; path = Drawables/ic_install.png; sourceTree = "<group>"; };
+		521374211E6A916300B871C7 /* ic_leadtest_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_leadtest_white.png; path = Drawables/ic_leadtest_white.png; sourceTree = "<group>"; };
+		521374221E6A916300B871C7 /* ic_mailbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_mailbox.png; path = Drawables/ic_mailbox.png; sourceTree = "<group>"; };
+		521374231E6A916300B871C7 /* ic_map_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_map_blue.png; path = Drawables/ic_map_blue.png; sourceTree = "<group>"; };
+		521374241E6A916300B871C7 /* ic_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_map.png; path = Drawables/ic_map.png; sourceTree = "<group>"; };
+		521374251E6A916300B871C7 /* ic_plus_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_plus_blue.png; path = Drawables/ic_plus_blue.png; sourceTree = "<group>"; };
+		521374261E6A916300B871C7 /* ic_recycle_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_recycle_white.png; path = Drawables/ic_recycle_white.png; sourceTree = "<group>"; };
+		521374271E6A916300B871C7 /* ic_report_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_report_blue.png; path = Drawables/ic_report_blue.png; sourceTree = "<group>"; };
+		521374281E6A916300B871C7 /* ic_report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_report.png; path = Drawables/ic_report.png; sourceTree = "<group>"; };
+		521374291E6A916300B871C7 /* ic_review_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_review_black.png; path = Drawables/ic_review_black.png; sourceTree = "<group>"; };
+		5213742A1E6A916300B871C7 /* ic_review_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_review_blue.png; path = Drawables/ic_review_blue.png; sourceTree = "<group>"; };
+		5213742B1E6A916300B871C7 /* ic_star_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_star_blue.png; path = Drawables/ic_star_blue.png; sourceTree = "<group>"; };
+		5213742C1E6A916300B871C7 /* ic_star_border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_star_border.png; path = Drawables/ic_star_border.png; sourceTree = "<group>"; };
+		5213742D1E6A916300B871C7 /* ic_star_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_star_filled.png; path = Drawables/ic_star_filled.png; sourceTree = "<group>"; };
+		5213742E1E6A916300B871C7 /* ic_start_border_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_start_border_blue.png; path = Drawables/ic_start_border_blue.png; sourceTree = "<group>"; };
+		5213742F1E6A916300B871C7 /* ic_water_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_water_white.png; path = Drawables/ic_water_white.png; sourceTree = "<group>"; };
+		521374301E6A916300B871C7 /* ic_water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_water.png; path = Drawables/ic_water.png; sourceTree = "<group>"; };
+		521374311E6A916300B871C7 /* leadtestmapicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leadtestmapicon.png; path = Drawables/leadtestmapicon.png; sourceTree = "<group>"; };
+		521374321E6A916300B871C7 /* leadtestmapicongray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leadtestmapicongray.png; path = Drawables/leadtestmapicongray.png; sourceTree = "<group>"; };
+		521374331E6A916300B871C7 /* locationmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locationmap.png; path = Drawables/locationmap.png; sourceTree = "<group>"; };
+		521374341E6A916300B871C7 /* locationmapgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locationmapgray.png; path = Drawables/locationmapgray.png; sourceTree = "<group>"; };
+		521374351E6A916300B871C7 /* pipesmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pipesmap.png; path = Drawables/pipesmap.png; sourceTree = "<group>"; };
+		521374361E6A916300B871C7 /* pipesmapgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pipesmapgray.png; path = Drawables/pipesmapgray.png; sourceTree = "<group>"; };
+		521374371E6A916300B871C7 /* recyclemapicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recyclemapicon.png; path = Drawables/recyclemapicon.png; sourceTree = "<group>"; };
+		521374381E6A916300B871C7 /* recyclemapicongray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recyclemapicongray.png; path = Drawables/recyclemapicongray.png; sourceTree = "<group>"; };
+		521374391E6A916300B871C7 /* redcircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redcircle.png; path = Drawables/redcircle.png; sourceTree = "<group>"; };
+		5213743A1E6A916300B871C7 /* redcirclenoline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redcirclenoline.png; path = Drawables/redcirclenoline.png; sourceTree = "<group>"; };
+		5213743B1E6A916300B871C7 /* savedmapgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = savedmapgray.png; path = Drawables/savedmapgray.png; sourceTree = "<group>"; };
+		5213743C1E6A916300B871C7 /* unselectedmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unselectedmap.png; path = Drawables/unselectedmap.png; sourceTree = "<group>"; };
+		5213743D1E6A916300B871C7 /* watermapicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watermapicon.png; path = Drawables/watermapicon.png; sourceTree = "<group>"; };
+		5213743E1E6A916300B871C7 /* watermapicongray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watermapicongray.png; path = Drawables/watermapicongray.png; sourceTree = "<group>"; };
+		5213743F1E6A916300B871C7 /* yellowcircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowcircle.png; path = Drawables/yellowcircle.png; sourceTree = "<group>"; };
+		521374401E6A916300B871C7 /* yellowcirclenoline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowcirclenoline.png; path = Drawables/yellowcirclenoline.png; sourceTree = "<group>"; };
+		522CB5431E4EF582005A4F84 /* NewsItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsItemTableViewCell.swift; path = Cells/NewsItemTableViewCell.swift; sourceTree = "<group>"; };
+		5239DC2F1E67C8CD00B7719A /* GoogleMapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleMapsViewController.swift; path = Controllers/GoogleMapsViewController.swift; sourceTree = "<group>"; };
+		5239DC321E67D98200B7719A /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = Values/Colors.swift; sourceTree = "<group>"; };
+		52455BEF1E6600DE00205F59 /* TestMyWaterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestMyWaterPageViewController.swift; path = Controllers/TestMyWaterPageViewController.swift; sourceTree = "<group>"; };
+		52620FDA1E662782001C5E2F /* CleanMyAeratorPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CleanMyAeratorPageViewController.swift; path = Controllers/CleanMyAeratorPageViewController.swift; sourceTree = "<group>"; };
+		52BA32A01E6AA01600721CB2 /* MyDb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyDb.swift; path = Models/MyDb.swift; sourceTree = "<group>"; };
+		52BCD1291E74EAB4008EEF8C /* ic_launcher152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher152x152.png; path = AppIcons/ic_launcher152x152.png; sourceTree = "<group>"; };
+		52BCD12B1E74EB63008EEF8C /* ic_launcher180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher180x180.png; path = AppIcons/ic_launcher180x180.png; sourceTree = "<group>"; };
+		52BCD12D1E74ED5C008EEF8C /* ic_launcher20x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher20x20.png; path = AppIcons/ic_launcher20x20.png; sourceTree = "<group>"; };
+		52BCD12E1E74ED5C008EEF8C /* ic_launcher29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher29x29.png; path = AppIcons/ic_launcher29x29.png; sourceTree = "<group>"; };
+		52BCD12F1E74ED5C008EEF8C /* ic_launcher58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher58x58.png; path = AppIcons/ic_launcher58x58.png; sourceTree = "<group>"; };
+		52BCD1301E74ED5C008EEF8C /* ic_launcher40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher40x40.png; path = AppIcons/ic_launcher40x40.png; sourceTree = "<group>"; };
+		52BCD1311E74ED5C008EEF8C /* ic_launcher60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher60x60.png; path = AppIcons/ic_launcher60x60.png; sourceTree = "<group>"; };
+		52BCD1321E74ED5C008EEF8C /* ic_launcher76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher76x76.png; path = AppIcons/ic_launcher76x76.png; sourceTree = "<group>"; };
+		52BCD1331E74ED5C008EEF8C /* ic_launcher80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher80x80.png; path = AppIcons/ic_launcher80x80.png; sourceTree = "<group>"; };
+		52BCD1341E74ED5C008EEF8C /* ic_launcher87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher87x87.png; path = AppIcons/ic_launcher87x87.png; sourceTree = "<group>"; };
+		52BCD1351E74ED5C008EEF8C /* ic_launcher120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher120x120.png; path = AppIcons/ic_launcher120x120.png; sourceTree = "<group>"; };
+		52BCD1361E74ED5C008EEF8C /* ic_launcher167x167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher167x167.png; path = AppIcons/ic_launcher167x167.png; sourceTree = "<group>"; };
 		52D8E9451E4EB0C4004EB76B /* MyWater-Flint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyWater-Flint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D8E9481E4EB0C5004EB76B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52D8E94A1E4EB0C5004EB76B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +215,14 @@
 		52D8E9641E4EB0C5004EB76B /* MyWater-FlintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyWater-FlintUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D8E9681E4EB0C5004EB76B /* MyWater_FlintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWater_FlintUITests.swift; sourceTree = "<group>"; };
 		52D8E96A1E4EB0C5004EB76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D8E9761E4EB467004EB76B /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutUsViewController.swift; path = Controllers/AboutUsViewController.swift; sourceTree = "<group>"; };
+		52D8E9811E4EBEC2004EB76B /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsViewController.swift; path = Controllers/NewsViewController.swift; sourceTree = "<group>"; };
+		52D8E9841E4EBF4C004EB76B /* NewsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsItem.swift; path = Models/NewsItem.swift; sourceTree = "<group>"; };
+		6AAB8A20606B94C9FC95A8A6 /* Pods-MyWater-Flint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWater-Flint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyWater-Flint/Pods-MyWater-Flint.debug.xcconfig"; sourceTree = "<group>"; };
+		6F7A0F8C76A6727DD02CD52E /* Pods-MyWater-FlintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWater-FlintTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyWater-FlintTests/Pods-MyWater-FlintTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A52B5DBD1D41B77991AB555E /* Pods-MyWater-Flint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWater-Flint.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyWater-Flint/Pods-MyWater-Flint.release.xcconfig"; sourceTree = "<group>"; };
+		DB40062BCBB32E673FC7CDBF /* Pods-MyWater-FlintUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWater-FlintUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyWater-FlintUITests/Pods-MyWater-FlintUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA74031209701912B4D6263D /* Pods_MyWater_Flint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWater_Flint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +230,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C324D706CB33FA0D131211E /* Pods_MyWater_Flint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +238,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C080D4A7619FE1E2BAD5CF14 /* Pods_MyWater_FlintTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +246,127 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				485E6CC252A7C41E7C7C41AF /* Pods_MyWater_FlintUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17E68D084783304ADB1000E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA74031209701912B4D6263D /* Pods_MyWater_Flint.framework */,
+				0B8323A59C4955F45472B690 /* Pods_MyWater_FlintTests.framework */,
+				380407B67B74A4361A4C38BA /* Pods_MyWater_FlintUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		521373FF1E6A5E1300B871C7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				521374001E6A5E2200B871C7 /* compressedTests.json */,
+				521374011E6A5E2200B871C7 /* mixedData.json */,
+				521374021E6A5E2200B871C7 /* providers.json */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		5213740C1E6A914E00B871C7 /* Drawable */ = {
+			isa = PBXGroup;
+			children = (
+				5213740D1E6A916300B871C7 /* bloodmapicon.png */,
+				5213740E1E6A916300B871C7 /* bloodmapicongray.png */,
+				5213740F1E6A916300B871C7 /* browncircle.png */,
+				521374101E6A916300B871C7 /* browncirclenoline.png */,
+				521374111E6A916300B871C7 /* constructionmap.png */,
+				521374121E6A916300B871C7 /* constructionmapgray.png */,
+				521374131E6A916300B871C7 /* filtermapicon.png */,
+				521374141E6A916300B871C7 /* flitermapicongray.png */,
+				521374151E6A916300B871C7 /* graycircle.png */,
+				521374161E6A916300B871C7 /* greycirclenoline.png */,
+				521374171E6A916300B871C7 /* ic_action_name.png */,
+				521374181E6A916300B871C7 /* ic_add_blue.png */,
+				521374191E6A916300B871C7 /* ic_aerator.png */,
+				5213741A1E6A916300B871C7 /* ic_bloodtest_white.png */,
+				5213741B1E6A916300B871C7 /* ic_call_blue.png */,
+				5213741C1E6A916300B871C7 /* ic_close_black.png */,
+				5213741D1E6A916300B871C7 /* ic_close_white.png */,
+				5213741E1E6A916300B871C7 /* ic_filter_white.png */,
+				5213741F1E6A916300B871C7 /* ic_info_black.png */,
+				521374201E6A916300B871C7 /* ic_install.png */,
+				521374211E6A916300B871C7 /* ic_leadtest_white.png */,
+				521374221E6A916300B871C7 /* ic_mailbox.png */,
+				521374231E6A916300B871C7 /* ic_map_blue.png */,
+				521374241E6A916300B871C7 /* ic_map.png */,
+				521374251E6A916300B871C7 /* ic_plus_blue.png */,
+				521374261E6A916300B871C7 /* ic_recycle_white.png */,
+				521374271E6A916300B871C7 /* ic_report_blue.png */,
+				521374281E6A916300B871C7 /* ic_report.png */,
+				521374291E6A916300B871C7 /* ic_review_black.png */,
+				5213742A1E6A916300B871C7 /* ic_review_blue.png */,
+				5213742B1E6A916300B871C7 /* ic_star_blue.png */,
+				5213742C1E6A916300B871C7 /* ic_star_border.png */,
+				5213742D1E6A916300B871C7 /* ic_star_filled.png */,
+				5213742E1E6A916300B871C7 /* ic_start_border_blue.png */,
+				5213742F1E6A916300B871C7 /* ic_water_white.png */,
+				521374301E6A916300B871C7 /* ic_water.png */,
+				521374311E6A916300B871C7 /* leadtestmapicon.png */,
+				521374321E6A916300B871C7 /* leadtestmapicongray.png */,
+				521374331E6A916300B871C7 /* locationmap.png */,
+				521374341E6A916300B871C7 /* locationmapgray.png */,
+				521374351E6A916300B871C7 /* pipesmap.png */,
+				521374361E6A916300B871C7 /* pipesmapgray.png */,
+				521374371E6A916300B871C7 /* recyclemapicon.png */,
+				521374381E6A916300B871C7 /* recyclemapicongray.png */,
+				521374391E6A916300B871C7 /* redcircle.png */,
+				5213743A1E6A916300B871C7 /* redcirclenoline.png */,
+				5213743B1E6A916300B871C7 /* savedmapgray.png */,
+				5213743C1E6A916300B871C7 /* unselectedmap.png */,
+				5213743D1E6A916300B871C7 /* watermapicon.png */,
+				5213743E1E6A916300B871C7 /* watermapicongray.png */,
+				5213743F1E6A916300B871C7 /* yellowcircle.png */,
+				521374401E6A916300B871C7 /* yellowcirclenoline.png */,
+			);
+			name = Drawable;
+			sourceTree = "<group>";
+		};
+		522CB5421E4EF548005A4F84 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				522CB5431E4EF582005A4F84 /* NewsItemTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		5239DC311E67D95900B7719A /* Values */ = {
+			isa = PBXGroup;
+			children = (
+				5239DC321E67D98200B7719A /* Colors.swift */,
+			);
+			name = Values;
+			sourceTree = "<group>";
+		};
+		52BCD1281E74EA94008EEF8C /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				52BCD12D1E74ED5C008EEF8C /* ic_launcher20x20.png */,
+				52BCD12E1E74ED5C008EEF8C /* ic_launcher29x29.png */,
+				52BCD12F1E74ED5C008EEF8C /* ic_launcher58x58.png */,
+				52BCD1301E74ED5C008EEF8C /* ic_launcher40x40.png */,
+				52BCD1311E74ED5C008EEF8C /* ic_launcher60x60.png */,
+				52BCD1321E74ED5C008EEF8C /* ic_launcher76x76.png */,
+				52BCD1331E74ED5C008EEF8C /* ic_launcher80x80.png */,
+				52BCD1341E74ED5C008EEF8C /* ic_launcher87x87.png */,
+				52BCD1351E74ED5C008EEF8C /* ic_launcher120x120.png */,
+				52BCD1361E74ED5C008EEF8C /* ic_launcher167x167.png */,
+				52BCD12B1E74EB63008EEF8C /* ic_launcher180x180.png */,
+				52BCD1291E74EAB4008EEF8C /* ic_launcher152x152.png */,
+			);
+			name = AppIcons;
+			sourceTree = "<group>";
+		};
 		52D8E93C1E4EB0C3004EB76B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +374,8 @@
 				52D8E95C1E4EB0C5004EB76B /* MyWater-FlintTests */,
 				52D8E9671E4EB0C5004EB76B /* MyWater-FlintUITests */,
 				52D8E9461E4EB0C4004EB76B /* Products */,
+				B01784436F41167B6D82E3DF /* Pods */,
+				17E68D084783304ADB1000E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +392,14 @@
 		52D8E9471E4EB0C4004EB76B /* MyWater-Flint */ = {
 			isa = PBXGroup;
 			children = (
+				52BCD1281E74EA94008EEF8C /* AppIcons */,
+				5213740C1E6A914E00B871C7 /* Drawable */,
+				521373FF1E6A5E1300B871C7 /* Assets */,
+				5239DC311E67D95900B7719A /* Values */,
+				52D8E9831E4EBF2C004EB76B /* Models */,
+				52D8E97E1E4EBE85004EB76B /* Controllers */,
 				52D8E9481E4EB0C5004EB76B /* AppDelegate.swift */,
-				52D8E94A1E4EB0C5004EB76B /* ViewController.swift */,
+				522CB5421E4EF548005A4F84 /* Cells */,
 				52D8E94C1E4EB0C5004EB76B /* Main.storyboard */,
 				52D8E94F1E4EB0C5004EB76B /* Assets.xcassets */,
 				52D8E9511E4EB0C5004EB76B /* LaunchScreen.storyboard */,
@@ -125,6 +426,47 @@
 			path = "MyWater-FlintUITests";
 			sourceTree = "<group>";
 		};
+		52D8E97E1E4EBE85004EB76B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52D8E9811E4EBEC2004EB76B /* NewsViewController.swift */,
+				52D8E94A1E4EB0C5004EB76B /* ViewController.swift */,
+				52D8E9761E4EB467004EB76B /* AboutUsViewController.swift */,
+				52455BEF1E6600DE00205F59 /* TestMyWaterPageViewController.swift */,
+				52620FDA1E662782001C5E2F /* CleanMyAeratorPageViewController.swift */,
+				5239DC2F1E67C8CD00B7719A /* GoogleMapsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		52D8E9831E4EBF2C004EB76B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52D8E9841E4EBF4C004EB76B /* NewsItem.swift */,
+				521373FD1E6A56E700B871C7 /* LeadLevels.swift */,
+				521374061E6A6F4200B871C7 /* LeadLevel.swift */,
+				521374081E6A871D00B871C7 /* Property.swift */,
+				5213740A1E6A872B00B871C7 /* Properties.swift */,
+				52BA32A01E6AA01600721CB2 /* MyDb.swift */,
+				520544721E6E938A00F08739 /* Resource.swift */,
+				520544741E6E9D1600F08739 /* Resources.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B01784436F41167B6D82E3DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB8A20606B94C9FC95A8A6 /* Pods-MyWater-Flint.debug.xcconfig */,
+				A52B5DBD1D41B77991AB555E /* Pods-MyWater-Flint.release.xcconfig */,
+				6F7A0F8C76A6727DD02CD52E /* Pods-MyWater-FlintTests.debug.xcconfig */,
+				1BE2C7D88464D4E382D9AF59 /* Pods-MyWater-FlintTests.release.xcconfig */,
+				40CF371F28D8C9159D63E150 /* Pods-MyWater-FlintUITests.debug.xcconfig */,
+				DB40062BCBB32E673FC7CDBF /* Pods-MyWater-FlintUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +474,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52D8E96D1E4EB0C5004EB76B /* Build configuration list for PBXNativeTarget "MyWater-Flint" */;
 			buildPhases = (
+				23A71582F2313F2498C489CB /* 📦 Check Pods Manifest.lock */,
 				52D8E9411E4EB0C3004EB76B /* Sources */,
 				52D8E9421E4EB0C3004EB76B /* Frameworks */,
 				52D8E9431E4EB0C3004EB76B /* Resources */,
+				06519EAEC2E37698AC17E669 /* 📦 Embed Pods Frameworks */,
+				0F0CDD2D8CD84CB05EED07CE /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +494,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52D8E9701E4EB0C5004EB76B /* Build configuration list for PBXNativeTarget "MyWater-FlintTests" */;
 			buildPhases = (
+				9FFCEB0535F5833058AF3E3F /* 📦 Check Pods Manifest.lock */,
 				52D8E9551E4EB0C5004EB76B /* Sources */,
 				52D8E9561E4EB0C5004EB76B /* Frameworks */,
 				52D8E9571E4EB0C5004EB76B /* Resources */,
+				2FE9F4F6A2EB72DFCC956D42 /* 📦 Embed Pods Frameworks */,
+				FD0DC7DA2D4963A797438D14 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +515,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52D8E9731E4EB0C5004EB76B /* Build configuration list for PBXNativeTarget "MyWater-FlintUITests" */;
 			buildPhases = (
+				F0AF788FEC3C220D821C263C /* 📦 Check Pods Manifest.lock */,
 				52D8E9601E4EB0C5004EB76B /* Sources */,
 				52D8E9611E4EB0C5004EB76B /* Frameworks */,
 				52D8E9621E4EB0C5004EB76B /* Resources */,
+				8D34D4AAC1477D3D99C24476 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,15 +543,19 @@
 				TargetAttributes = {
 					52D8E9441E4EB0C3004EB76B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BMF88C7289;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					52D8E9581E4EB0C5004EB76B = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 52D8E9441E4EB0C3004EB76B;
 					};
 					52D8E9631E4EB0C5004EB76B = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 52D8E9441E4EB0C3004EB76B;
 					};
@@ -232,8 +586,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521374711E6A916300B871C7 /* watermapicon.png in Resources */,
+				5213746E1E6A916300B871C7 /* redcirclenoline.png in Resources */,
+				521374561E6A916300B871C7 /* ic_mailbox.png in Resources */,
+				521374511E6A916300B871C7 /* ic_close_white.png in Resources */,
+				52BCD1401E74ED5C008EEF8C /* ic_launcher167x167.png in Resources */,
+				52BCD13A1E74ED5C008EEF8C /* ic_launcher40x40.png in Resources */,
+				521374431E6A916300B871C7 /* browncircle.png in Resources */,
+				52BCD1371E74ED5C008EEF8C /* ic_launcher20x20.png in Resources */,
+				521374531E6A916300B871C7 /* ic_info_black.png in Resources */,
+				521374031E6A5E2200B871C7 /* compressedTests.json in Resources */,
+				521374501E6A916300B871C7 /* ic_close_black.png in Resources */,
+				521374611E6A916300B871C7 /* ic_star_filled.png in Resources */,
+				521374691E6A916300B871C7 /* pipesmap.png in Resources */,
+				521374551E6A916300B871C7 /* ic_leadtest_white.png in Resources */,
+				52BCD1391E74ED5C008EEF8C /* ic_launcher58x58.png in Resources */,
+				5213746D1E6A916300B871C7 /* redcircle.png in Resources */,
+				521374721E6A916300B871C7 /* watermapicongray.png in Resources */,
+				521374621E6A916300B871C7 /* ic_start_border_blue.png in Resources */,
+				521374461E6A916300B871C7 /* constructionmapgray.png in Resources */,
+				521374661E6A916300B871C7 /* leadtestmapicongray.png in Resources */,
+				521374451E6A916300B871C7 /* constructionmap.png in Resources */,
+				5213745E1E6A916300B871C7 /* ic_review_blue.png in Resources */,
+				521374671E6A916300B871C7 /* locationmap.png in Resources */,
+				52BCD13F1E74ED5C008EEF8C /* ic_launcher120x120.png in Resources */,
+				52BCD13E1E74ED5C008EEF8C /* ic_launcher87x87.png in Resources */,
+				5213744E1E6A916300B871C7 /* ic_bloodtest_white.png in Resources */,
+				521374581E6A916300B871C7 /* ic_map.png in Resources */,
+				521374421E6A916300B871C7 /* bloodmapicongray.png in Resources */,
+				5213744B1E6A916300B871C7 /* ic_action_name.png in Resources */,
+				5213744A1E6A916300B871C7 /* greycirclenoline.png in Resources */,
+				521374651E6A916300B871C7 /* leadtestmapicon.png in Resources */,
+				5213744C1E6A916300B871C7 /* ic_add_blue.png in Resources */,
+				52BCD13D1E74ED5C008EEF8C /* ic_launcher80x80.png in Resources */,
+				5213746C1E6A916300B871C7 /* recyclemapicongray.png in Resources */,
+				521374491E6A916300B871C7 /* graycircle.png in Resources */,
+				521374641E6A916300B871C7 /* ic_water.png in Resources */,
+				521374411E6A916300B871C7 /* bloodmapicon.png in Resources */,
+				5213745C1E6A916300B871C7 /* ic_report.png in Resources */,
+				521374731E6A916300B871C7 /* yellowcircle.png in Resources */,
+				52BCD12C1E74EB63008EEF8C /* ic_launcher180x180.png in Resources */,
 				52D8E9531E4EB0C5004EB76B /* LaunchScreen.storyboard in Resources */,
+				5213745D1E6A916300B871C7 /* ic_review_black.png in Resources */,
+				521374591E6A916300B871C7 /* ic_plus_blue.png in Resources */,
+				521374471E6A916300B871C7 /* filtermapicon.png in Resources */,
+				5213745B1E6A916300B871C7 /* ic_report_blue.png in Resources */,
+				521374521E6A916300B871C7 /* ic_filter_white.png in Resources */,
+				521374631E6A916300B871C7 /* ic_water_white.png in Resources */,
+				521374441E6A916300B871C7 /* browncirclenoline.png in Resources */,
+				5213744F1E6A916300B871C7 /* ic_call_blue.png in Resources */,
+				5213744D1E6A916300B871C7 /* ic_aerator.png in Resources */,
+				521374041E6A5E2200B871C7 /* mixedData.json in Resources */,
+				5213746A1E6A916300B871C7 /* pipesmapgray.png in Resources */,
+				5213746B1E6A916300B871C7 /* recyclemapicon.png in Resources */,
+				5213745A1E6A916300B871C7 /* ic_recycle_white.png in Resources */,
+				52BCD1381E74ED5C008EEF8C /* ic_launcher29x29.png in Resources */,
+				5213746F1E6A916300B871C7 /* savedmapgray.png in Resources */,
+				5213745F1E6A916300B871C7 /* ic_star_blue.png in Resources */,
+				521374681E6A916300B871C7 /* locationmapgray.png in Resources */,
+				521374601E6A916300B871C7 /* ic_star_border.png in Resources */,
+				52BCD13B1E74ED5C008EEF8C /* ic_launcher60x60.png in Resources */,
 				52D8E9501E4EB0C5004EB76B /* Assets.xcassets in Resources */,
+				521374051E6A5E2200B871C7 /* providers.json in Resources */,
+				521374741E6A916300B871C7 /* yellowcirclenoline.png in Resources */,
+				521374571E6A916300B871C7 /* ic_map_blue.png in Resources */,
+				521374701E6A916300B871C7 /* unselectedmap.png in Resources */,
+				52BCD12A1E74EAB4008EEF8C /* ic_launcher152x152.png in Resources */,
+				52BCD13C1E74ED5C008EEF8C /* ic_launcher76x76.png in Resources */,
+				521374541E6A916300B871C7 /* ic_install.png in Resources */,
+				521374481E6A916300B871C7 /* flitermapicongray.png in Resources */,
 				52D8E94E1E4EB0C5004EB76B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +675,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06519EAEC2E37698AC17E669 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyWater-Flint/Pods-MyWater-Flint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F0CDD2D8CD84CB05EED07CE /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyWater-Flint/Pods-MyWater-Flint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23A71582F2313F2498C489CB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2FE9F4F6A2EB72DFCC956D42 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyWater-FlintTests/Pods-MyWater-FlintTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D34D4AAC1477D3D99C24476 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyWater-FlintUITests/Pods-MyWater-FlintUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FFCEB0535F5833058AF3E3F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0AF788FEC3C220D821C263C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD0DC7DA2D4963A797438D14 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyWater-FlintTests/Pods-MyWater-FlintTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52D8E9411E4EB0C3004EB76B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52455BF01E6600DE00205F59 /* TestMyWaterPageViewController.swift in Sources */,
+				520544731E6E938A00F08739 /* Resource.swift in Sources */,
+				5239DC331E67D98200B7719A /* Colors.swift in Sources */,
+				52D8E9851E4EBF4C004EB76B /* NewsItem.swift in Sources */,
+				522CB5441E4EF582005A4F84 /* NewsItemTableViewCell.swift in Sources */,
 				52D8E94B1E4EB0C5004EB76B /* ViewController.swift in Sources */,
+				52620FDB1E662782001C5E2F /* CleanMyAeratorPageViewController.swift in Sources */,
+				5213740B1E6A872B00B871C7 /* Properties.swift in Sources */,
+				521374091E6A871D00B871C7 /* Property.swift in Sources */,
+				520544751E6E9D1600F08739 /* Resources.swift in Sources */,
+				52D8E9771E4EB467004EB76B /* AboutUsViewController.swift in Sources */,
+				521373FE1E6A56E700B871C7 /* LeadLevels.swift in Sources */,
+				521374071E6A6F4200B871C7 /* LeadLevel.swift in Sources */,
+				52D8E9821E4EBEC2004EB76B /* NewsViewController.swift in Sources */,
 				52D8E9491E4EB0C5004EB76B /* AppDelegate.swift in Sources */,
+				5239DC301E67C8CD00B7719A /* GoogleMapsViewController.swift in Sources */,
+				52BA32A11E6AA01600721CB2 /* MyDb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,8 +969,18 @@
 		};
 		52D8E96E1E4EB0C5004EB76B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAB8A20606B94C9FC95A8A6 /* Pods-MyWater-Flint.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BMF88C7289;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/GoogleMaps/Subspecs/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Subspecs/Maps/Frameworks\"",
+					"\"${PODS_ROOT}/GooglePlaces/Frameworks\"",
+					"$(SRCROOT)/**",
+				);
 				INFOPLIST_FILE = "MyWater-Flint/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.umflinth2o.MyWater-Flint";
@@ -422,8 +991,18 @@
 		};
 		52D8E96F1E4EB0C5004EB76B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A52B5DBD1D41B77991AB555E /* Pods-MyWater-Flint.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BMF88C7289;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/GoogleMaps/Subspecs/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Subspecs/Maps/Frameworks\"",
+					"\"${PODS_ROOT}/GooglePlaces/Frameworks\"",
+					"$(SRCROOT)/**",
+				);
 				INFOPLIST_FILE = "MyWater-Flint/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.umflinth2o.MyWater-Flint";
@@ -434,6 +1013,7 @@
 		};
 		52D8E9711E4EB0C5004EB76B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F7A0F8C76A6727DD02CD52E /* Pods-MyWater-FlintTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +1028,7 @@
 		};
 		52D8E9721E4EB0C5004EB76B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE2C7D88464D4E382D9AF59 /* Pods-MyWater-FlintTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +1043,7 @@
 		};
 		52D8E9741E4EB0C5004EB76B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40CF371F28D8C9159D63E150 /* Pods-MyWater-FlintUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "MyWater-FlintUITests/Info.plist";
@@ -475,6 +1057,7 @@
 		};
 		52D8E9751E4EB0C5004EB76B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB40062BCBB32E673FC7CDBF /* Pods-MyWater-FlintUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "MyWater-FlintUITests/Info.plist";
@@ -505,6 +1088,7 @@
 				52D8E96F1E4EB0C5004EB76B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52D8E9701E4EB0C5004EB76B /* Build configuration list for PBXNativeTarget "MyWater-FlintTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +1097,7 @@
 				52D8E9721E4EB0C5004EB76B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52D8E9731E4EB0C5004EB76B /* Build configuration list for PBXNativeTarget "MyWater-FlintUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +1106,7 @@
 				52D8E9751E4EB0C5004EB76B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
