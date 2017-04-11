@@ -45,15 +45,15 @@ class GoogleMapsViewController: UIViewController, GMSMapViewDelegate {
     @IBOutlet weak var propertyView: PropertyView!
     @IBOutlet weak var resourceView: ResourceView!
     @IBOutlet weak var leadLevelView: LeadLevelView!
-
-    override func loadView() {
-        
-        super.loadView()
-        
-    }
+    @IBOutlet weak var addressSearchBox: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationItem.title = "MyWater-Flint"
+        self.navigationController?.navigationBar.barTintColor = Colors.colorPrimaryDark
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        self.navigationController?.navigationBar.isTranslucent = false
         
         propertyView.isHidden = true
         resourceView.isHidden = true
@@ -69,6 +69,10 @@ class GoogleMapsViewController: UIViewController, GMSMapViewDelegate {
         mapView.camera = camera
         
         mapView.delegate = self
+        
+        mapView.bringSubview(toFront: addressSearchBox)
+        
+//        addressSearchBox.delegate = self
         
 //        var searchBar = UISearchBar()
         
@@ -931,4 +935,11 @@ class GoogleMapsViewController: UIViewController, GMSMapViewDelegate {
         
     }
 
+}
+
+
+extension GoogleMapsViewController: UITextFieldDelegate {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        print("textfieldShouldBeginEditing")
+    }
 }

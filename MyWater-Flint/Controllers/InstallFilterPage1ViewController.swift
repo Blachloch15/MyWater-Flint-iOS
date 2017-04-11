@@ -1,20 +1,24 @@
 //
-//  CleanMyAeratorPage1ViewController.swift
-//  Pods
+//  InstallFilterPage1ViewController.swift
+//  MyWater-Flint
 //
 //  Created by John Collins on 3/21/17.
-//
+//  Copyright © 2017 University of Michigan Software. All rights reserved.
 //
 
 import UIKit
 
-class CleanMyAeratorPage1ViewController: UIViewController, UINavigationControllerDelegate {
+class InstallFilterPage1ViewController: UIViewController, UINavigationControllerDelegate {
 
+    @IBOutlet weak var britaButton: UIButton!
+    @IBOutlet weak var purButton: UIButton!
+    @IBOutlet weak var zeroWaterButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.navigationController?.delegate = self
-        self.navigationItem.title = "Clean My Aerator"
+        self.navigationItem.title = "Install A Filter"
         self.navigationController?.navigationBar.barTintColor = Colors.colorPrimaryDark
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
         self.navigationController?.navigationBar.isTranslucent = false
@@ -25,6 +29,27 @@ class CleanMyAeratorPage1ViewController: UIViewController, UINavigationControlle
         
         let leftBarButton = UIBarButtonItem(image: icon, style: UIBarButtonItemStyle.plain, target: self, action: #selector(TestPage2ViewController.goToRoot(_:)))
         self.navigationItem.setLeftBarButton(leftBarButton, animated: false)
+        
+        britaButton.tintColor = UIColor.black
+        
+        britaButton.imageView!.contentMode = UIViewContentMode.scaleAspectFit
+        britaButton.layer.borderWidth = 0.5
+        britaButton.backgroundColor = UIColor.white
+        britaButton.layer.borderColor = Colors.lightGrayText.cgColor
+        
+        purButton.tintColor = UIColor.black
+        
+        purButton.imageView!.contentMode = UIViewContentMode.scaleAspectFit
+        purButton.layer.borderWidth = 0.5
+        purButton.backgroundColor = UIColor.white
+        purButton.layer.borderColor = Colors.lightGrayText.cgColor
+        
+        zeroWaterButton.tintColor = UIColor.black
+        
+        zeroWaterButton.imageView!.contentMode = UIViewContentMode.scaleAspectFit
+        zeroWaterButton.layer.borderWidth = 0.5
+        zeroWaterButton.backgroundColor = UIColor.white
+        zeroWaterButton.layer.borderColor = Colors.lightGrayText.cgColor
         
         let circle1 = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 15.0, height: 15.0))
         
@@ -53,7 +78,9 @@ class CleanMyAeratorPage1ViewController: UIViewController, UINavigationControlle
         circle3.clipsToBounds = true
         
         self.view.addSubview(circle3)
-    
+        
+        self.navigationController?.navigationBar.barTintColor = Colors.colorPrimary
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -61,18 +88,20 @@ class CleanMyAeratorPage1ViewController: UIViewController, UINavigationControlle
         // Dispose of any resources that can be recreated.
     }
     
+
+    private func adjustImageAndTitleOffsetForButton(button: UIButton) {
+        let spacing: CGFloat = 6.0
+        
+        let imageSize = button.imageView!.frame.size
+        
+        button.titleEdgeInsets = UIEdgeInsets(top: (imageSize.height + spacing), left: -imageSize.width, bottom: -20, right: 0)
+        
+        let titleSize = button.titleLabel!.frame.size
+        button.imageEdgeInsets = UIEdgeInsets(top: -(titleSize.height + spacing), left: 0, bottom: 0, right: -titleSize.width)
+    }
+    
     func goToRoot(_ sender: Any) {
         self.navigationController?.popToRootViewController(animated: true)
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

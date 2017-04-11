@@ -13,7 +13,7 @@
         <!--Show me how...-->
         <scene sceneID="FnF-NV-1Oi">
             <objects>
-                <viewController title="Show me how..." id="B2s-J8-nQC" sceneMemberID="viewController">
+                <viewController title="Show me how..." id="B2s-J8-nQC" customClass="ShowMeHowViewController" customModule="MyWater_Flint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="d22-5i-Ej8"/>
                         <viewControllerLayoutGuide type="bottom" id="67O-Ck-D8z"/>
@@ -101,6 +101,23 @@
             </objects>
             <point key="canvasLocation" x="929" y="375"/>
         </scene>
+        <!--About-->
+        <scene sceneID="QqD-Ko-5Nb">
+            <objects>
+                <navigationController id="jaI-c1-F8S" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About" image="ic_info_black.png" id="CGt-dq-nVK"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="1PU-ee-8le">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="XUQ-Hl-gkP" kind="relationship" relationship="rootViewController" id="5ie-lt-LSO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NPN-xa-mjZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-76" y="917"/>
+        </scene>
         <!--About Us-->
         <scene sceneID="yYc-LS-37I">
             <objects>
@@ -130,6 +147,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="ic_info_black.png" id="PMO-Eb-9Pn"/>
+                    <navigationItem key="navigationItem" id="biC-kk-jIL"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
                         <outlet property="aboutUsLabel" destination="VXg-mt-6w3" id="5XM-ac-5zR"/>
@@ -137,7 +155,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GJI-xC-wok" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="928.79999999999995" y="1024.1379310344828"/>
+            <point key="canvasLocation" x="967" y="1038"/>
         </scene>
         <!--Map-->
         <scene sceneID="5On-t9-Qu3">
@@ -170,7 +188,23 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PpR-Sa-ZDL" customClass="GMSMapView">
                                 <rect key="frame" x="0.0" y="69" width="375" height="436"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n3c-SG-Xfr">
+                                        <rect key="frame" x="8" y="8" width="359" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="Omc-TH-8lR" id="GRB-fM-3dK"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="n3c-SG-Xfr" firstAttribute="top" secondItem="PpR-Sa-ZDL" secondAttribute="top" constant="8" id="9Gi-W9-t4f"/>
+                                    <constraint firstAttribute="trailing" secondItem="n3c-SG-Xfr" secondAttribute="trailing" constant="8" id="ElD-H9-sAv"/>
+                                    <constraint firstItem="n3c-SG-Xfr" firstAttribute="leading" secondItem="PpR-Sa-ZDL" secondAttribute="leading" constant="8" id="pOU-1p-P0j"/>
+                                </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Icc-8p-zYW">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
@@ -513,6 +547,7 @@
                     <navigationItem key="navigationItem" title="Map" id="i4T-u8-dj0"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
+                        <outlet property="addressSearchBox" destination="n3c-SG-Xfr" id="3XY-hs-qee"/>
                         <outlet property="highView" destination="u94-ke-ZPq" id="k2U-zg-78O"/>
                         <outlet property="leadLevelView" destination="TVO-tN-hcT" id="Ltk-k2-Urc"/>
                         <outlet property="lowView" destination="Vsj-VK-jpC" id="uUk-cN-lWc"/>
@@ -526,7 +561,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aVS-LU-Kk9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1583" y="-1148"/>
+            <point key="canvasLocation" x="1581.5999999999999" y="-1148.2758620689656"/>
+        </scene>
+        <!--News-->
+        <scene sceneID="zRg-8l-foR">
+            <objects>
+                <navigationController id="exs-T9-dkd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="News" image="ic_mailbox.png" id="YpV-5J-gUx"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="7TA-lz-n0j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="AXf-Fr-oHN" kind="relationship" relationship="rootViewController" id="Ial-8H-D8X"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Jl-EB-8AB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="640" y="-317"/>
         </scene>
         <!--News-->
         <scene sceneID="gZs-rB-CmS">
@@ -596,6 +648,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="News" image="ic_mailbox.png" id="leH-3Z-BKO"/>
+                    <navigationItem key="navigationItem" id="Ntg-E1-Ez4"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
                         <outlet property="newsTableView" destination="klW-J9-HFp" id="TVN-zF-4eg"/>
@@ -603,7 +656,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0GV-08-jSb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="929" y="-343"/>
+            <point key="canvasLocation" x="1748" y="-386"/>
         </scene>
         <!--Test Page1 View Controller-->
         <scene sceneID="XDs-df-K9K">
@@ -795,9 +848,9 @@
                     </tabBar>
                     <connections>
                         <segue destination="GtG-Zm-LB8" kind="relationship" relationship="viewControllers" id="JTp-Zh-qnB"/>
-                        <segue destination="AXf-Fr-oHN" kind="relationship" relationship="viewControllers" id="Zzk-vV-Dwk"/>
-                        <segue destination="7cG-xu-qYY" kind="relationship" relationship="viewControllers" id="lqa-ge-vAf"/>
-                        <segue destination="XUQ-Hl-gkP" kind="relationship" relationship="viewControllers" id="5Rh-rT-9l6"/>
+                        <segue destination="exs-T9-dkd" kind="relationship" relationship="viewControllers" id="5lv-fB-fJ1"/>
+                        <segue destination="7cG-xu-qYY" kind="relationship" relationship="viewControllers" id="0kD-Xq-QGB"/>
+                        <segue destination="jaI-c1-F8S" kind="relationship" relationship="viewControllers" id="RUo-hd-vKN"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t7a-si-BHD" userLabel="First Responder" sceneMemberID="firstResponder"/>

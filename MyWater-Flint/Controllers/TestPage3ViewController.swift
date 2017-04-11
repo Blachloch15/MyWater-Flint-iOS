@@ -1,5 +1,5 @@
 //
-//  PurPage2ViewController.swift
+//  TestPage3ViewController.swift
 //  MyWater-Flint
 //
 //  Created by John Collins on 3/21/17.
@@ -8,19 +8,20 @@
 
 import UIKit
 
-class PurPage2ViewController: UIViewController, UINavigationControllerDelegate {
+class TestPage3ViewController: UIViewController, UINavigationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.navigationController?.delegate = self
-        self.navigationItem.title = "Install A Filter"
+        self.navigationItem.title = "Test My Water"
         self.navigationController?.navigationBar.barTintColor = Colors.colorPrimaryDark
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
         self.navigationController?.navigationBar.isTranslucent = false
         
         let bundlePath = Bundle.main.path(forResource: "ic_close_white", ofType: "png")
         let icon = UIImage(contentsOfFile: bundlePath!)?.withRenderingMode(.alwaysOriginal)
+        
         
         let leftBarButton = UIBarButtonItem(image: icon, style: UIBarButtonItemStyle.plain, target: self, action: #selector(TestPage2ViewController.goToRoot(_:)))
         self.navigationItem.setLeftBarButton(leftBarButton, animated: false)
@@ -52,7 +53,7 @@ class PurPage2ViewController: UIViewController, UINavigationControllerDelegate {
         circle3.clipsToBounds = true
         
         self.view.addSubview(circle3)
-
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -64,6 +65,21 @@ class PurPage2ViewController: UIViewController, UINavigationControllerDelegate {
         self.navigationController?.popToRootViewController(animated: true)
     }
 
+    @IBAction func findLocations(_ sender: Any) {
+        
+        let newView: GoogleMapsViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "GoogleMapsViewController") as! GoogleMapsViewController
+        
+        //        let newView = GoogleMapsViewController()
+        
+        newView.isActive_testkits = true
+        newView.isActive_recycling = false
+        newView.isActive_waterpickup = false
+        newView.isActive_bloodtesting = false
+        newView.isActive_waterfilters = false
+        newView.showLeadLevels = false
+        self.navigationController?.pushViewController(newView, animated: true)
+        
+    }
     /*
     // MARK: - Navigation
 

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NewsViewController: UIViewController, XMLParserDelegate {
+class NewsViewController: UIViewController, XMLParserDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var newsTableView: UITableView!
 
@@ -22,6 +22,11 @@ class NewsViewController: UIViewController, XMLParserDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.navigationController?.delegate = self
+        self.navigationItem.title = "News"
+        self.navigationController?.navigationBar.barTintColor = Colors.colorPrimaryDark
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        self.navigationController?.navigationBar.isTranslucent = false
         
         self.newsTableView.estimatedRowHeight = 40.0
         

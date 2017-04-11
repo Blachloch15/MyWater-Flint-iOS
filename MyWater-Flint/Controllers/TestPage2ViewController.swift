@@ -15,8 +15,13 @@ class TestPage2ViewController: UIViewController, UINavigationControllerDelegate 
         
         
         self.navigationController?.delegate = self
-        let bundlePath = Bundle.main.path(forResource: "ic_close_black", ofType: "png")
-        let icon = UIImage(contentsOfFile: bundlePath!)!
+        self.navigationItem.title = "Test My Water"
+        self.navigationController?.navigationBar.barTintColor = Colors.colorPrimaryDark
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        self.navigationController?.navigationBar.isTranslucent = false
+        
+        let bundlePath = Bundle.main.path(forResource: "ic_close_white", ofType: "png")
+        let icon = UIImage(contentsOfFile: bundlePath!)?.withRenderingMode(.alwaysOriginal)
         
         
         let leftBarButton = UIBarButtonItem(image: icon, style: UIBarButtonItemStyle.plain, target: self, action: #selector(TestPage2ViewController.goToRoot(_:)))

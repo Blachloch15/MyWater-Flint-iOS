@@ -20,6 +20,7 @@ class LeadLevels {
         let path = Bundle.main.path(forResource: "compressedTests", ofType: "json")
         
         do {
+            
             let jsonData : NSData = try NSData(contentsOf: URL(string: "file://\(path!)")!)
             let jsonObject:AnyObject? = try JSONSerialization.jsonObject(with: jsonData as Data, options: .allowFragments) as AnyObject
             if let itemArray = jsonObject?.object(forKey: "area") as? NSArray {

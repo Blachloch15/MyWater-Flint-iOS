@@ -119,6 +119,7 @@
 		52D8E9851E4EBF4C004EB76B /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8E9841E4EBF4C004EB76B /* NewsItem.swift */; };
 		52E3222F1E93390800640F02 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3222E1E93390800640F02 /* MoreInfoViewController.swift */; };
 		52F289711E9C64F4003F866C /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F289701E9C64F4003F866C /* splashscreen.png */; };
+		52F289751E9D9B05003F866C /* ShowMeHowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F289741E9D9B05003F866C /* ShowMeHowViewController.swift */; };
 		8C324D706CB33FA0D131211E /* Pods_MyWater_Flint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA74031209701912B4D6263D /* Pods_MyWater_Flint.framework */; };
 		C080D4A7619FE1E2BAD5CF14 /* Pods_MyWater_FlintTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8323A59C4955F45472B690 /* Pods_MyWater_FlintTests.framework */; };
 /* End PBXBuildFile section */
@@ -262,6 +263,7 @@
 		52D8E9841E4EBF4C004EB76B /* NewsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsItem.swift; path = Models/NewsItem.swift; sourceTree = "<group>"; };
 		52E3222E1E93390800640F02 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoreInfoViewController.swift; path = Controllers/MoreInfoViewController.swift; sourceTree = "<group>"; };
 		52F289701E9C64F4003F866C /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splashscreen.png; path = Drawables/splashscreen.png; sourceTree = "<group>"; };
+		52F289741E9D9B05003F866C /* ShowMeHowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShowMeHowViewController.swift; path = Controllers/ShowMeHowViewController.swift; sourceTree = "<group>"; };
 		6AAB8A20606B94C9FC95A8A6 /* Pods-MyWater-Flint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWater-Flint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyWater-Flint/Pods-MyWater-Flint.debug.xcconfig"; sourceTree = "<group>"; };
 		6F7A0F8C76A6727DD02CD52E /* Pods-MyWater-FlintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWater-FlintTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyWater-FlintTests/Pods-MyWater-FlintTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A52B5DBD1D41B77991AB555E /* Pods-MyWater-Flint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWater-Flint.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyWater-Flint/Pods-MyWater-Flint.release.xcconfig"; sourceTree = "<group>"; };
@@ -440,6 +442,7 @@
 				5269AC211E81172C00341A60 /* Test Water */,
 				5269AC221E81174800341A60 /* Clean My Aerator */,
 				5269AC231E81175300341A60 /* Install A Filter */,
+				52F289741E9D9B05003F866C /* ShowMeHowViewController.swift */,
 			);
 			name = "Show Me How";
 			sourceTree = "<group>";
@@ -950,6 +953,7 @@
 				522CB5441E4EF582005A4F84 /* NewsItemTableViewCell.swift in Sources */,
 				52D8E94B1E4EB0C5004EB76B /* ViewController.swift in Sources */,
 				525A4B151E7792E90036CB1E /* ResourceView.swift in Sources */,
+				52F289751E9D9B05003F866C /* ShowMeHowViewController.swift in Sources */,
 				5213740B1E6A872B00B871C7 /* Properties.swift in Sources */,
 				521374091E6A871D00B871C7 /* Property.swift in Sources */,
 				525A4B191E779ECA0036CB1E /* LeadLevelPolygon.swift in Sources */,
