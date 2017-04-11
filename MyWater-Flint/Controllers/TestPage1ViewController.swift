@@ -51,6 +51,8 @@ class TestPage1ViewController: UIViewController, UINavigationControllerDelegate 
         
         self.view.addSubview(circle3)
         
+        self.navigationController?.navigationBar.barTintColor = Colors.colorPrimary
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -49,6 +49,8 @@ class CleanMyAeratorPage1ViewController: UIViewController, UINavigationControlle
         
         self.view.addSubview(circle3)
         
+        self.navigationController?.navigationBar.barTintColor = Colors.colorPrimary
+    
     }
 
     override func didReceiveMemoryWarning() {
