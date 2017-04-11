@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-MyWater-Flint.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MyWater-FlintTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MyWater-FlintUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Realm.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RealmSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1E302ACC9AB8E7832FFF9548E6F7A664</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20633FBA4F46154EC62A94C434E5C0B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52A8FF47E688E3C9E0D5B0741CD33F0F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A818DF484FB53775265CB39F514601D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C8CD59E8DE55EA99CF0E0E14683D7484</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

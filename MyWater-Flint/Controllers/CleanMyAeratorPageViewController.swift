@@ -26,6 +26,8 @@ class CleanMyAeratorPageViewController: UIPageViewController {
             setViewControllers([firstViewController], direction: .forward, animated: true, completion: nil)
         }
         
+        self.view.backgroundColor = UIColor.black
+        
     }
     
     override func didReceiveMemoryWarning() {

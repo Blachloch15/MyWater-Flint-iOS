@@ -13,19 +13,15 @@ class NewsViewController: UIViewController, XMLParserDelegate {
     @IBOutlet weak var newsTableView: UITableView!
 
     var xmlParser = XMLParser()
-    var posts = NSMutableArray()
-    
-    var elements = NSMutableDictionary()
     var element = String()
     var title1 = NSMutableString()
-    var title3 = NSMutableString()
     var date = NSMutableString()
     var link = NSMutableString()
     var articles: [NewsItem] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        posts = []
         
         self.newsTableView.estimatedRowHeight = 40.0
         
@@ -41,26 +37,18 @@ class NewsViewController: UIViewController, XMLParserDelegate {
         let success: Bool = xmlParser.parse()
         
         if success {
-//            print("parse success!")
-//            print(articles)
-//            for item in articles {
-//                print (item.newsTitle)
-//                print (item.newsDate)
-//                print (item.newsThumbUrl)
-//            }
-//            print(posts)
-//            for _ in posts {
-//                print(item)
-//                for key in item.keys {
-//                    print(key + " => " + item[key]!)
-//                }
-//            }
+            print("parse success!")
+            print(articles)
+            for item in articles {
+                print (item.newsTitle)
+                print (item.newsDate)
+                print (item.newsThumbUrl)
+            }
             
         } else {
             print("parse failure")
         }
         
-        // Do any additional setup after loading the view.
     }
     
     override func didReceiveMemoryWarning() {
@@ -68,22 +56,12 @@ class NewsViewController: UIViewController, XMLParserDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    private func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?,attributes attributeDict:[AnyHashable: Any])
-    {
+    func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
         element = elementName
-        if (elementName as NSString).isEqual(to: "title")
-        {
-            elements = NSMutableDictionary()
-            title3 = NSMutableString()
-            title3 = ""
-        }
+        print(element)
         
         if (elementName as NSString).isEqual(to: "item")
         {
-            elements = NSMutableDictionary()
-            
-            ()
-            elements = [:]
             title1 = NSMutableString()
             title1 = ""
             date = NSMutableString()
@@ -91,32 +69,14 @@ class NewsViewController: UIViewController, XMLParserDelegate {
             link = NSMutableString()
             link = ""
         }
+
     }
+
     
     func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?)
     {
-        if (elementName as NSString).isEqual(to: "title")
-        {
-            if !title3.isEqual(nil) {
-                elements.setObject(title3, forKey: "title" as NSCopying)
-                //posts.addObject(elements)
-                
-            }
-            
-        }
         
         if (elementName as NSString).isEqual(to: "item") {
-            
-            if !title1.isEqual(nil) {
-                elements.setObject(title1, forKey: "title" as NSCopying)
-            }
-            if !date.isEqual(nil) {
-                elements.setObject(date, forKey: "date" as NSCopying)
-            }
-            if !link.isEqual(nil){
-                elements.setObject(link, forKey: "link" as NSCopying)
-            }
-            posts.add(elements)
             let newsItem: NewsItem = NewsItem()
             newsItem.newsDate = date as String
             newsItem.newsTitle = title1 as String
@@ -128,11 +88,10 @@ class NewsViewController: UIViewController, XMLParserDelegate {
     
     func parser(_ parser: XMLParser, foundCharacters string: String)
     {
-//        print(element)
-        if element.isEqual("title")
-        {
-            title3.append(string)
-        }
+        print(string)
+        
+//        element.append(string)
+
         
         
         if element.isEqual("title") {
@@ -145,9 +104,7 @@ class NewsViewController: UIViewController, XMLParserDelegate {
         if element.isEqual("pubDate") {
             date.append(string)
         }
-        if element.isEqual("description") {
-//            print(string)
-        }
+
     }
 
 }
@@ -171,6 +128,7 @@ extension NewsViewController: UITableViewDataSource {
         
         var labelString = ""
         labelString = articles[indexPath.item].newsTitle
+        
         let labelStringArr = labelString.characters.split(separator: "-").map(String.init)
         cell.titleLabel.text = labelStringArr[0]
         cell.authorLabel.text = labelStringArr[1]

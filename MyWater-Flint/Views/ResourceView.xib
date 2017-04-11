@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ResourceView" customModule="MyWater_Flint" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65k-QO-Qix">
+                    <rect key="frame" x="12" y="87" width="69" height="32"/>
+                    <state key="normal" title="SAVE" image="ic_star_blue.png"/>
+                    <connections>
+                        <action selector="toggleSave:" destination="iN0-l3-epB" eventType="touchUpInside" id="9fR-ol-d8v"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NT3-yO-jhL">
+                    <rect key="frame" x="258" y="87" width="107" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="GET DIRECTIONS"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6OI-Cy-snC">
+                    <rect key="frame" x="10" y="61" width="355" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JoG-hS-kNS">
+                    <rect key="frame" x="10" y="32" width="355" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgu-9s-FTc">
+                    <rect key="frame" x="335" y="10" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Jbm-JH-2HG"/>
+                        <constraint firstAttribute="width" constant="30" id="bWo-jV-4TF"/>
+                    </constraints>
+                    <state key="normal" image="ic_close_black.png"/>
+                    <connections>
+                        <action selector="closeClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="QVk-b8-pCo"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="JoG-hS-kNS" secondAttribute="trailing" constant="10" id="0RU-rS-4lM"/>
+                <constraint firstItem="65k-QO-Qix" firstAttribute="top" secondItem="6OI-Cy-snC" secondAttribute="bottom" constant="5" id="63c-v0-k9M"/>
+                <constraint firstItem="6OI-Cy-snC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="6lI-f1-to8"/>
+                <constraint firstAttribute="bottom" secondItem="65k-QO-Qix" secondAttribute="bottom" constant="1" id="A9F-S1-7rI"/>
+                <constraint firstAttribute="bottom" secondItem="NT3-yO-jhL" secondAttribute="bottom" constant="3" id="BjF-Nu-9nl"/>
+                <constraint firstItem="NT3-yO-jhL" firstAttribute="top" secondItem="6OI-Cy-snC" secondAttribute="bottom" constant="5" id="EQ2-kx-hr1"/>
+                <constraint firstItem="6OI-Cy-snC" firstAttribute="top" secondItem="JoG-hS-kNS" secondAttribute="bottom" constant="5" id="JiH-Kv-Bnv"/>
+                <constraint firstItem="65k-QO-Qix" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="PkT-oC-qH3"/>
+                <constraint firstAttribute="trailing" secondItem="NT3-yO-jhL" secondAttribute="trailing" constant="10" id="hZ2-2S-Q0B"/>
+                <constraint firstItem="bgu-9s-FTc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="nTi-k6-Y35"/>
+                <constraint firstAttribute="trailing" secondItem="6OI-Cy-snC" secondAttribute="trailing" constant="10" id="rO9-tD-xai"/>
+                <constraint firstAttribute="trailing" secondItem="bgu-9s-FTc" secondAttribute="trailing" constant="10" id="se4-xu-l0v"/>
+                <constraint firstItem="JoG-hS-kNS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="xOV-sn-Ceo"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="getDirections" destination="NT3-yO-jhL" id="wUb-IM-Xrb"/>
+                <outlet property="resourceDescription" destination="6OI-Cy-snC" id="dRF-4z-2pY"/>
+                <outlet property="resourceName" destination="JoG-hS-kNS" id="60f-xh-iWB"/>
+                <outlet property="saveButton" destination="65k-QO-Qix" id="iZ2-Xk-Kdu"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_close_black.png" width="32" height="32"/>
+        <image name="ic_star_blue.png" width="32" height="32"/>
+    </resources>
+</document>

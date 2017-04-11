@@ -72,8 +72,28 @@
 		522CB5441E4EF582005A4F84 /* NewsItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522CB5431E4EF582005A4F84 /* NewsItemTableViewCell.swift */; };
 		5239DC301E67C8CD00B7719A /* GoogleMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239DC2F1E67C8CD00B7719A /* GoogleMapsViewController.swift */; };
 		5239DC331E67D98200B7719A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239DC321E67D98200B7719A /* Colors.swift */; };
-		52455BF01E6600DE00205F59 /* TestMyWaterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52455BEF1E6600DE00205F59 /* TestMyWaterPageViewController.swift */; };
-		52620FDB1E662782001C5E2F /* CleanMyAeratorPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52620FDA1E662782001C5E2F /* CleanMyAeratorPageViewController.swift */; };
+		525A4B111E77727D0036CB1E /* PropertyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525A4B101E77727D0036CB1E /* PropertyView.xib */; };
+		525A4B131E7774700036CB1E /* PropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525A4B121E7774700036CB1E /* PropertyView.swift */; };
+		525A4B151E7792E90036CB1E /* ResourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525A4B141E7792E90036CB1E /* ResourceView.swift */; };
+		525A4B171E7793020036CB1E /* ResourceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525A4B161E7793020036CB1E /* ResourceView.xib */; };
+		525A4B191E779ECA0036CB1E /* LeadLevelPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525A4B181E779ECA0036CB1E /* LeadLevelPolygon.swift */; };
+		525A4B1B1E77A0440036CB1E /* LeadLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525A4B1A1E77A0440036CB1E /* LeadLevelView.swift */; };
+		525A4B1D1E77A0520036CB1E /* LeadLevelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525A4B1C1E77A0520036CB1E /* LeadLevelView.xib */; };
+		5269ABFC1E80DA4B00341A60 /* TestPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269ABFB1E80DA4B00341A60 /* TestPage1ViewController.swift */; };
+		5269ABFE1E80DEA700341A60 /* TestPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269ABFD1E80DEA700341A60 /* TestPage2ViewController.swift */; };
+		5269AC001E80E88800341A60 /* TestPage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269ABFF1E80E88800341A60 /* TestPage3ViewController.swift */; };
+		5269AC041E80EC1B00341A60 /* CleanMyAeratorPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269AC031E80EC1B00341A60 /* CleanMyAeratorPage1ViewController.swift */; };
+		5269AC061E80EC3900341A60 /* CleanMyAeratorPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269AC051E80EC3900341A60 /* CleanMyAeratorPage2ViewController.swift */; };
+		5269AC081E80EC4600341A60 /* CleanMyAeratorPage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269AC071E80EC4600341A60 /* CleanMyAeratorPage3ViewController.swift */; };
+		5269AC0C1E80F6CD00341A60 /* zerowater.png in Resources */ = {isa = PBXBuildFile; fileRef = 5269AC091E80F6CD00341A60 /* zerowater.png */; };
+		5269AC0D1E80F6CE00341A60 /* pur_filter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5269AC0A1E80F6CD00341A60 /* pur_filter.jpg */; };
+		5269AC0E1E80F6CE00341A60 /* brita.png in Resources */ = {isa = PBXBuildFile; fileRef = 5269AC0B1E80F6CD00341A60 /* brita.png */; };
+		5269AC121E80FAC200341A60 /* InstallFilterPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269AC111E80FAC200341A60 /* InstallFilterPage1ViewController.swift */; };
+		5269AC141E8110E300341A60 /* BritaPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269AC131E8110E300341A60 /* BritaPage1ViewController.swift */; };
+		5269AC161E81110000341A60 /* BritaPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269AC151E81110000341A60 /* BritaPage2ViewController.swift */; };
+		5269AC181E8113B800341A60 /* PurPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269AC171E8113B800341A60 /* PurPage1ViewController.swift */; };
+		5269AC1A1E81140000341A60 /* PurPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269AC191E81140000341A60 /* PurPage2ViewController.swift */; };
+		5269AC1C1E81155100341A60 /* ZeroWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269AC1B1E81155100341A60 /* ZeroWaterViewController.swift */; };
 		52BA32A11E6AA01600721CB2 /* MyDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA32A01E6AA01600721CB2 /* MyDb.swift */; };
 		52BCD12A1E74EAB4008EEF8C /* ic_launcher152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD1291E74EAB4008EEF8C /* ic_launcher152x152.png */; };
 		52BCD12C1E74EB63008EEF8C /* ic_launcher180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD12B1E74EB63008EEF8C /* ic_launcher180x180.png */; };
@@ -97,6 +117,8 @@
 		52D8E9771E4EB467004EB76B /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8E9761E4EB467004EB76B /* AboutUsViewController.swift */; };
 		52D8E9821E4EBEC2004EB76B /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8E9811E4EBEC2004EB76B /* NewsViewController.swift */; };
 		52D8E9851E4EBF4C004EB76B /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8E9841E4EBF4C004EB76B /* NewsItem.swift */; };
+		52E3222F1E93390800640F02 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3222E1E93390800640F02 /* MoreInfoViewController.swift */; };
+		52F289711E9C64F4003F866C /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F289701E9C64F4003F866C /* splashscreen.png */; };
 		8C324D706CB33FA0D131211E /* Pods_MyWater_Flint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA74031209701912B4D6263D /* Pods_MyWater_Flint.framework */; };
 		C080D4A7619FE1E2BAD5CF14 /* Pods_MyWater_FlintTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8323A59C4955F45472B690 /* Pods_MyWater_FlintTests.framework */; };
 /* End PBXBuildFile section */
@@ -187,8 +209,28 @@
 		522CB5431E4EF582005A4F84 /* NewsItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsItemTableViewCell.swift; path = Cells/NewsItemTableViewCell.swift; sourceTree = "<group>"; };
 		5239DC2F1E67C8CD00B7719A /* GoogleMapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleMapsViewController.swift; path = Controllers/GoogleMapsViewController.swift; sourceTree = "<group>"; };
 		5239DC321E67D98200B7719A /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = Values/Colors.swift; sourceTree = "<group>"; };
-		52455BEF1E6600DE00205F59 /* TestMyWaterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestMyWaterPageViewController.swift; path = Controllers/TestMyWaterPageViewController.swift; sourceTree = "<group>"; };
-		52620FDA1E662782001C5E2F /* CleanMyAeratorPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CleanMyAeratorPageViewController.swift; path = Controllers/CleanMyAeratorPageViewController.swift; sourceTree = "<group>"; };
+		525A4B101E77727D0036CB1E /* PropertyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PropertyView.xib; path = Views/PropertyView.xib; sourceTree = "<group>"; };
+		525A4B121E7774700036CB1E /* PropertyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PropertyView.swift; path = Views/PropertyView.swift; sourceTree = "<group>"; };
+		525A4B141E7792E90036CB1E /* ResourceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResourceView.swift; path = Views/ResourceView.swift; sourceTree = "<group>"; };
+		525A4B161E7793020036CB1E /* ResourceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResourceView.xib; path = Views/ResourceView.xib; sourceTree = "<group>"; };
+		525A4B181E779ECA0036CB1E /* LeadLevelPolygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeadLevelPolygon.swift; path = Models/LeadLevelPolygon.swift; sourceTree = "<group>"; };
+		525A4B1A1E77A0440036CB1E /* LeadLevelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeadLevelView.swift; path = Views/LeadLevelView.swift; sourceTree = "<group>"; };
+		525A4B1C1E77A0520036CB1E /* LeadLevelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LeadLevelView.xib; path = Views/LeadLevelView.xib; sourceTree = "<group>"; };
+		5269ABFB1E80DA4B00341A60 /* TestPage1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestPage1ViewController.swift; path = Controllers/TestPage1ViewController.swift; sourceTree = "<group>"; };
+		5269ABFD1E80DEA700341A60 /* TestPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestPage2ViewController.swift; path = Controllers/TestPage2ViewController.swift; sourceTree = "<group>"; };
+		5269ABFF1E80E88800341A60 /* TestPage3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestPage3ViewController.swift; path = Controllers/TestPage3ViewController.swift; sourceTree = "<group>"; };
+		5269AC031E80EC1B00341A60 /* CleanMyAeratorPage1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CleanMyAeratorPage1ViewController.swift; path = Controllers/CleanMyAeratorPage1ViewController.swift; sourceTree = "<group>"; };
+		5269AC051E80EC3900341A60 /* CleanMyAeratorPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CleanMyAeratorPage2ViewController.swift; path = Controllers/CleanMyAeratorPage2ViewController.swift; sourceTree = "<group>"; };
+		5269AC071E80EC4600341A60 /* CleanMyAeratorPage3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CleanMyAeratorPage3ViewController.swift; path = Controllers/CleanMyAeratorPage3ViewController.swift; sourceTree = "<group>"; };
+		5269AC091E80F6CD00341A60 /* zerowater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zerowater.png; path = Drawables/zerowater.png; sourceTree = "<group>"; };
+		5269AC0A1E80F6CD00341A60 /* pur_filter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pur_filter.jpg; path = Drawables/pur_filter.jpg; sourceTree = "<group>"; };
+		5269AC0B1E80F6CD00341A60 /* brita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brita.png; path = Drawables/brita.png; sourceTree = "<group>"; };
+		5269AC111E80FAC200341A60 /* InstallFilterPage1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstallFilterPage1ViewController.swift; path = Controllers/InstallFilterPage1ViewController.swift; sourceTree = "<group>"; };
+		5269AC131E8110E300341A60 /* BritaPage1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BritaPage1ViewController.swift; path = Controllers/BritaPage1ViewController.swift; sourceTree = "<group>"; };
+		5269AC151E81110000341A60 /* BritaPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BritaPage2ViewController.swift; path = Controllers/BritaPage2ViewController.swift; sourceTree = "<group>"; };
+		5269AC171E8113B800341A60 /* PurPage1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PurPage1ViewController.swift; path = Controllers/PurPage1ViewController.swift; sourceTree = "<group>"; };
+		5269AC191E81140000341A60 /* PurPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PurPage2ViewController.swift; path = Controllers/PurPage2ViewController.swift; sourceTree = "<group>"; };
+		5269AC1B1E81155100341A60 /* ZeroWaterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZeroWaterViewController.swift; path = Controllers/ZeroWaterViewController.swift; sourceTree = "<group>"; };
 		52BA32A01E6AA01600721CB2 /* MyDb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyDb.swift; path = Models/MyDb.swift; sourceTree = "<group>"; };
 		52BCD1291E74EAB4008EEF8C /* ic_launcher152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher152x152.png; path = AppIcons/ic_launcher152x152.png; sourceTree = "<group>"; };
 		52BCD12B1E74EB63008EEF8C /* ic_launcher180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher180x180.png; path = AppIcons/ic_launcher180x180.png; sourceTree = "<group>"; };
@@ -218,6 +260,8 @@
 		52D8E9761E4EB467004EB76B /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutUsViewController.swift; path = Controllers/AboutUsViewController.swift; sourceTree = "<group>"; };
 		52D8E9811E4EBEC2004EB76B /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsViewController.swift; path = Controllers/NewsViewController.swift; sourceTree = "<group>"; };
 		52D8E9841E4EBF4C004EB76B /* NewsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsItem.swift; path = Models/NewsItem.swift; sourceTree = "<group>"; };
+		52E3222E1E93390800640F02 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoreInfoViewController.swift; path = Controllers/MoreInfoViewController.swift; sourceTree = "<group>"; };
+		52F289701E9C64F4003F866C /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splashscreen.png; path = Drawables/splashscreen.png; sourceTree = "<group>"; };
 		6AAB8A20606B94C9FC95A8A6 /* Pods-MyWater-Flint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWater-Flint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyWater-Flint/Pods-MyWater-Flint.debug.xcconfig"; sourceTree = "<group>"; };
 		6F7A0F8C76A6727DD02CD52E /* Pods-MyWater-FlintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWater-FlintTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyWater-FlintTests/Pods-MyWater-FlintTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A52B5DBD1D41B77991AB555E /* Pods-MyWater-Flint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWater-Flint.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyWater-Flint/Pods-MyWater-Flint.release.xcconfig"; sourceTree = "<group>"; };
@@ -276,6 +320,10 @@
 		5213740C1E6A914E00B871C7 /* Drawable */ = {
 			isa = PBXGroup;
 			children = (
+				52F289701E9C64F4003F866C /* splashscreen.png */,
+				5269AC091E80F6CD00341A60 /* zerowater.png */,
+				5269AC0A1E80F6CD00341A60 /* pur_filter.jpg */,
+				5269AC0B1E80F6CD00341A60 /* brita.png */,
 				5213740D1E6A916300B871C7 /* bloodmapicon.png */,
 				5213740E1E6A916300B871C7 /* bloodmapicongray.png */,
 				5213740F1E6A916300B871C7 /* browncircle.png */,
@@ -348,6 +396,87 @@
 			name = Values;
 			sourceTree = "<group>";
 		};
+		525A4B0D1E77713A0036CB1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				525A4B101E77727D0036CB1E /* PropertyView.xib */,
+				525A4B121E7774700036CB1E /* PropertyView.swift */,
+				525A4B141E7792E90036CB1E /* ResourceView.swift */,
+				525A4B161E7793020036CB1E /* ResourceView.xib */,
+				525A4B1A1E77A0440036CB1E /* LeadLevelView.swift */,
+				525A4B1C1E77A0520036CB1E /* LeadLevelView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5269AC1D1E8116CD00341A60 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				52D8E9811E4EBEC2004EB76B /* NewsViewController.swift */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		5269AC1E1E8116E700341A60 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				5239DC2F1E67C8CD00B7719A /* GoogleMapsViewController.swift */,
+				52E3222E1E93390800640F02 /* MoreInfoViewController.swift */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		5269AC1F1E8116EF00341A60 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				52D8E9761E4EB467004EB76B /* AboutUsViewController.swift */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		5269AC201E8116FB00341A60 /* Show Me How */ = {
+			isa = PBXGroup;
+			children = (
+				5269AC211E81172C00341A60 /* Test Water */,
+				5269AC221E81174800341A60 /* Clean My Aerator */,
+				5269AC231E81175300341A60 /* Install A Filter */,
+			);
+			name = "Show Me How";
+			sourceTree = "<group>";
+		};
+		5269AC211E81172C00341A60 /* Test Water */ = {
+			isa = PBXGroup;
+			children = (
+				5269ABFB1E80DA4B00341A60 /* TestPage1ViewController.swift */,
+				5269ABFD1E80DEA700341A60 /* TestPage2ViewController.swift */,
+				5269ABFF1E80E88800341A60 /* TestPage3ViewController.swift */,
+			);
+			name = "Test Water";
+			sourceTree = "<group>";
+		};
+		5269AC221E81174800341A60 /* Clean My Aerator */ = {
+			isa = PBXGroup;
+			children = (
+				5269AC031E80EC1B00341A60 /* CleanMyAeratorPage1ViewController.swift */,
+				5269AC051E80EC3900341A60 /* CleanMyAeratorPage2ViewController.swift */,
+				5269AC071E80EC4600341A60 /* CleanMyAeratorPage3ViewController.swift */,
+			);
+			name = "Clean My Aerator";
+			sourceTree = "<group>";
+		};
+		5269AC231E81175300341A60 /* Install A Filter */ = {
+			isa = PBXGroup;
+			children = (
+				5269AC111E80FAC200341A60 /* InstallFilterPage1ViewController.swift */,
+				5269AC131E8110E300341A60 /* BritaPage1ViewController.swift */,
+				5269AC151E81110000341A60 /* BritaPage2ViewController.swift */,
+				5269AC171E8113B800341A60 /* PurPage1ViewController.swift */,
+				5269AC191E81140000341A60 /* PurPage2ViewController.swift */,
+				5269AC1B1E81155100341A60 /* ZeroWaterViewController.swift */,
+			);
+			name = "Install A Filter";
+			sourceTree = "<group>";
+		};
 		52BCD1281E74EA94008EEF8C /* AppIcons */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,6 +521,7 @@
 		52D8E9471E4EB0C4004EB76B /* MyWater-Flint */ = {
 			isa = PBXGroup;
 			children = (
+				525A4B0D1E77713A0036CB1E /* Views */,
 				52BCD1281E74EA94008EEF8C /* AppIcons */,
 				5213740C1E6A914E00B871C7 /* Drawable */,
 				521373FF1E6A5E1300B871C7 /* Assets */,
@@ -429,12 +559,11 @@
 		52D8E97E1E4EBE85004EB76B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				52D8E9811E4EBEC2004EB76B /* NewsViewController.swift */,
+				5269AC1D1E8116CD00341A60 /* News */,
 				52D8E94A1E4EB0C5004EB76B /* ViewController.swift */,
-				52D8E9761E4EB467004EB76B /* AboutUsViewController.swift */,
-				52455BEF1E6600DE00205F59 /* TestMyWaterPageViewController.swift */,
-				52620FDA1E662782001C5E2F /* CleanMyAeratorPageViewController.swift */,
-				5239DC2F1E67C8CD00B7719A /* GoogleMapsViewController.swift */,
+				5269AC1E1E8116E700341A60 /* Maps */,
+				5269AC1F1E8116EF00341A60 /* About */,
+				5269AC201E8116FB00341A60 /* Show Me How */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -450,6 +579,7 @@
 				52BA32A01E6AA01600721CB2 /* MyDb.swift */,
 				520544721E6E938A00F08739 /* Resource.swift */,
 				520544741E6E9D1600F08739 /* Resources.swift */,
+				525A4B181E779ECA0036CB1E /* LeadLevelPolygon.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -591,7 +721,9 @@
 				521374561E6A916300B871C7 /* ic_mailbox.png in Resources */,
 				521374511E6A916300B871C7 /* ic_close_white.png in Resources */,
 				52BCD1401E74ED5C008EEF8C /* ic_launcher167x167.png in Resources */,
+				525A4B1D1E77A0520036CB1E /* LeadLevelView.xib in Resources */,
 				52BCD13A1E74ED5C008EEF8C /* ic_launcher40x40.png in Resources */,
+				52F289711E9C64F4003F866C /* splashscreen.png in Resources */,
 				521374431E6A916300B871C7 /* browncircle.png in Resources */,
 				52BCD1371E74ED5C008EEF8C /* ic_launcher20x20.png in Resources */,
 				521374531E6A916300B871C7 /* ic_info_black.png in Resources */,
@@ -603,6 +735,7 @@
 				52BCD1391E74ED5C008EEF8C /* ic_launcher58x58.png in Resources */,
 				5213746D1E6A916300B871C7 /* redcircle.png in Resources */,
 				521374721E6A916300B871C7 /* watermapicongray.png in Resources */,
+				5269AC0D1E80F6CE00341A60 /* pur_filter.jpg in Resources */,
 				521374621E6A916300B871C7 /* ic_start_border_blue.png in Resources */,
 				521374461E6A916300B871C7 /* constructionmapgray.png in Resources */,
 				521374661E6A916300B871C7 /* leadtestmapicongray.png in Resources */,
@@ -630,12 +763,15 @@
 				5213745D1E6A916300B871C7 /* ic_review_black.png in Resources */,
 				521374591E6A916300B871C7 /* ic_plus_blue.png in Resources */,
 				521374471E6A916300B871C7 /* filtermapicon.png in Resources */,
+				5269AC0C1E80F6CD00341A60 /* zerowater.png in Resources */,
+				525A4B171E7793020036CB1E /* ResourceView.xib in Resources */,
 				5213745B1E6A916300B871C7 /* ic_report_blue.png in Resources */,
 				521374521E6A916300B871C7 /* ic_filter_white.png in Resources */,
 				521374631E6A916300B871C7 /* ic_water_white.png in Resources */,
 				521374441E6A916300B871C7 /* browncirclenoline.png in Resources */,
 				5213744F1E6A916300B871C7 /* ic_call_blue.png in Resources */,
 				5213744D1E6A916300B871C7 /* ic_aerator.png in Resources */,
+				525A4B111E77727D0036CB1E /* PropertyView.xib in Resources */,
 				521374041E6A5E2200B871C7 /* mixedData.json in Resources */,
 				5213746A1E6A916300B871C7 /* pipesmapgray.png in Resources */,
 				5213746B1E6A916300B871C7 /* recyclemapicon.png in Resources */,
@@ -651,6 +787,7 @@
 				521374741E6A916300B871C7 /* yellowcirclenoline.png in Resources */,
 				521374571E6A916300B871C7 /* ic_map_blue.png in Resources */,
 				521374701E6A916300B871C7 /* unselectedmap.png in Resources */,
+				5269AC0E1E80F6CE00341A60 /* brita.png in Resources */,
 				52BCD12A1E74EAB4008EEF8C /* ic_launcher152x152.png in Resources */,
 				52BCD13C1E74ED5C008EEF8C /* ic_launcher76x76.png in Resources */,
 				521374541E6A916300B871C7 /* ic_install.png in Resources */,
@@ -803,23 +940,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52455BF01E6600DE00205F59 /* TestMyWaterPageViewController.swift in Sources */,
+				525A4B1B1E77A0440036CB1E /* LeadLevelView.swift in Sources */,
 				520544731E6E938A00F08739 /* Resource.swift in Sources */,
 				5239DC331E67D98200B7719A /* Colors.swift in Sources */,
+				5269AC041E80EC1B00341A60 /* CleanMyAeratorPage1ViewController.swift in Sources */,
+				525A4B131E7774700036CB1E /* PropertyView.swift in Sources */,
 				52D8E9851E4EBF4C004EB76B /* NewsItem.swift in Sources */,
+				5269AC061E80EC3900341A60 /* CleanMyAeratorPage2ViewController.swift in Sources */,
 				522CB5441E4EF582005A4F84 /* NewsItemTableViewCell.swift in Sources */,
 				52D8E94B1E4EB0C5004EB76B /* ViewController.swift in Sources */,
-				52620FDB1E662782001C5E2F /* CleanMyAeratorPageViewController.swift in Sources */,
+				525A4B151E7792E90036CB1E /* ResourceView.swift in Sources */,
 				5213740B1E6A872B00B871C7 /* Properties.swift in Sources */,
 				521374091E6A871D00B871C7 /* Property.swift in Sources */,
+				525A4B191E779ECA0036CB1E /* LeadLevelPolygon.swift in Sources */,
+				5269AC1C1E81155100341A60 /* ZeroWaterViewController.swift in Sources */,
+				5269AC121E80FAC200341A60 /* InstallFilterPage1ViewController.swift in Sources */,
 				520544751E6E9D1600F08739 /* Resources.swift in Sources */,
 				52D8E9771E4EB467004EB76B /* AboutUsViewController.swift in Sources */,
+				5269AC001E80E88800341A60 /* TestPage3ViewController.swift in Sources */,
+				5269ABFC1E80DA4B00341A60 /* TestPage1ViewController.swift in Sources */,
+				5269AC181E8113B800341A60 /* PurPage1ViewController.swift in Sources */,
+				5269ABFE1E80DEA700341A60 /* TestPage2ViewController.swift in Sources */,
+				52E3222F1E93390800640F02 /* MoreInfoViewController.swift in Sources */,
 				521373FE1E6A56E700B871C7 /* LeadLevels.swift in Sources */,
 				521374071E6A6F4200B871C7 /* LeadLevel.swift in Sources */,
 				52D8E9821E4EBEC2004EB76B /* NewsViewController.swift in Sources */,
+				5269AC081E80EC4600341A60 /* CleanMyAeratorPage3ViewController.swift in Sources */,
+				5269AC141E8110E300341A60 /* BritaPage1ViewController.swift in Sources */,
 				52D8E9491E4EB0C5004EB76B /* AppDelegate.swift in Sources */,
+				5269AC1A1E81140000341A60 /* PurPage2ViewController.swift in Sources */,
 				5239DC301E67C8CD00B7719A /* GoogleMapsViewController.swift in Sources */,
 				52BA32A11E6AA01600721CB2 /* MyDb.swift in Sources */,
+				5269AC161E81110000341A60 /* BritaPage2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

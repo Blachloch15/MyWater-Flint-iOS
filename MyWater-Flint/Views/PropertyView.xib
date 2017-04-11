@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PropertyView" customModule="MyWater_Flint" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1r-fl-8uL">
+                    <rect key="frame" x="335" y="10" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Gpr-in-dMu"/>
+                        <constraint firstAttribute="width" constant="30" id="SBA-Bd-0iW"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="ic_close_black.png"/>
+                    <connections>
+                        <action selector="closeClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="CSj-SY-etM"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2q-DJ-lq3">
+                    <rect key="frame" x="43" y="15" width="284" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hQ2-Da-XfJ">
+                    <rect key="frame" x="10" y="58" width="355" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wg4-Wy-RYx">
+                    <rect key="frame" x="12" y="86" width="69" height="32"/>
+                    <state key="normal" title="SAVE" image="ic_star_blue.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xqx-UE-kKe">
+                    <rect key="frame" x="235" y="87" width="130" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="MORE INFORMATION"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VTt-TP-676">
+                    <rect key="frame" x="5" y="0.0" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="AdE-ms-uRO"/>
+                        <constraint firstAttribute="width" constant="35" id="JWD-FP-GKp"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="k1r-fl-8uL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="1x4-Ka-6ps"/>
+                <constraint firstAttribute="trailing" secondItem="k1r-fl-8uL" secondAttribute="trailing" constant="10" id="2Oh-2p-6yg"/>
+                <constraint firstItem="xqx-UE-kKe" firstAttribute="top" secondItem="hQ2-Da-XfJ" secondAttribute="bottom" constant="8" id="7uT-BZ-9Uo"/>
+                <constraint firstItem="VTt-TP-676" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Gfg-jM-Gg4"/>
+                <constraint firstAttribute="bottom" secondItem="Wg4-Wy-RYx" secondAttribute="bottom" constant="2" id="KIu-hg-Zpe"/>
+                <constraint firstAttribute="trailing" secondItem="hQ2-Da-XfJ" secondAttribute="trailing" constant="10" id="Mc2-8q-ek2"/>
+                <constraint firstItem="VTt-TP-676" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="QVm-bW-Y54"/>
+                <constraint firstItem="hQ2-Da-XfJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="TqS-za-Ane"/>
+                <constraint firstItem="k1r-fl-8uL" firstAttribute="leading" secondItem="e2q-DJ-lq3" secondAttribute="trailing" constant="8" id="X66-47-eLZ"/>
+                <constraint firstAttribute="trailing" secondItem="xqx-UE-kKe" secondAttribute="trailing" constant="10" id="ZrN-Y1-CE0"/>
+                <constraint firstItem="e2q-DJ-lq3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="ceq-dy-x8D"/>
+                <constraint firstItem="Wg4-Wy-RYx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="eoL-mB-ndn"/>
+                <constraint firstAttribute="bottom" secondItem="xqx-UE-kKe" secondAttribute="bottom" constant="3" id="n9E-mQ-Q9e"/>
+                <constraint firstAttribute="trailing" secondItem="Wg4-Wy-RYx" secondAttribute="trailing" constant="282" id="o8U-ol-5Gj"/>
+                <constraint firstItem="hQ2-Da-XfJ" firstAttribute="top" secondItem="VTt-TP-676" secondAttribute="bottom" constant="23" id="qE4-oJ-mp4"/>
+                <constraint firstItem="Wg4-Wy-RYx" firstAttribute="top" secondItem="hQ2-Da-XfJ" secondAttribute="bottom" constant="7" id="sin-HG-LVz"/>
+                <constraint firstItem="e2q-DJ-lq3" firstAttribute="leading" secondItem="VTt-TP-676" secondAttribute="trailing" constant="3" id="wpp-dg-3nr"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="o8U-ol-5Gj"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="leadDescriptionLabel" destination="hQ2-Da-XfJ" id="t86-mj-Jhp"/>
+                <outlet property="leadLevelIcon" destination="VTt-TP-676" id="Pva-z5-I6S"/>
+                <outlet property="moreInformationButton" destination="xqx-UE-kKe" id="BiK-0d-NMK"/>
+                <outlet property="reportedLevelLabel" destination="e2q-DJ-lq3" id="PKP-Wi-2Vr"/>
+                <outlet property="saveButton" destination="Wg4-Wy-RYx" id="AM5-OH-V8r"/>
+            </connections>
+            <point key="canvasLocation" x="-206.5" y="28"/>
+        </view>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="71g-mb-lHV">
+            <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+            <nil key="textColor"/>
+            <nil key="highlightedColor"/>
+        </label>
+    </objects>
+    <resources>
+        <image name="ic_close_black.png" width="32" height="32"/>
+        <image name="ic_star_blue.png" width="32" height="32"/>
+    </resources>
+</document>
