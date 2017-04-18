@@ -17,30 +17,39 @@ class LeadLevels {
     func generateLeadLevelList() {
         leadLevelList = [LeadLevel]()
         
-        let path = Bundle.main.path(forResource: "compressedTests", ofType: "json")
-        
-        do {
+        let url = URL(string: "https://storage.googleapis.com/h2o-flint.appspot.com/leadLevels_birdview.json?key=AIzaSyD76BobwAhiW3bJux0sGVL1mZSePYZIh3E")
+        let task = URLSession.shared.dataTask(with: url!) { data, response, error in
+            guard error == nil else {
+                print(error!)
+                return
+            }
+            guard let data = data else {
+                print("Data is empty")
+                return
+            }
+            print(data)
+            let json = try! JSONSerialization.jsonObject(with: data, options: .allowFragments) as AnyObject
             
-            let jsonData : NSData = try NSData(contentsOf: URL(string: "file://\(path!)")!)
-            let jsonObject:AnyObject? = try JSONSerialization.jsonObject(with: jsonData as Data, options: .allowFragments) as AnyObject
-            if let itemArray = jsonObject?.object(forKey: "area") as? NSArray {
+            if let itemArray = json.object(forKey: "area") as? NSArray {
                 for item in itemArray {
                     let itemDict = item as! NSDictionary
                     
-                    let latitude = itemDict["latitude"] as! Double 
-                    let longitude = itemDict["longitude"] as! Double 
+                    let latitude = itemDict["latitude"] as! Double
+                    let longitude = itemDict["longitude"] as! Double
                     let numberOfTests = itemDict["numOfTests"] as? Int ?? 0
                     let numberOfHighLevels = itemDict["numOfDangerous"] as? Int ?? 0
                     
                     let levelToAdd = LeadLevel(latitude: latitude, longitude: longitude, numberOfTests: numberOfTests, numberOfHighLevels: numberOfHighLevels)
                     
-                    leadLevelList.append(levelToAdd)
+                    self.leadLevelList.append(levelToAdd)
                     
                 }
             }
-        } catch let err as NSError {
-            print("err:\(err)")
+            
+            print(json)
         }
+        
+        task.resume()
     }
     
     func getJSON(_ urlToRequest: String) -> Data {

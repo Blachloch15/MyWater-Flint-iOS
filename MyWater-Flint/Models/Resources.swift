@@ -25,11 +25,21 @@ class Resources {
         
         resourceList = [Resource]()
         
-        let path = Bundle.main.path(forResource: "providers", ofType: "json")
-        do {
-            let jsonData : NSData = try NSData(contentsOf: URL(string: "file://\(path!)")!)
-            let jsonObject:AnyObject? = try JSONSerialization.jsonObject(with: jsonData as Data, options: .allowFragments) as AnyObject
-            if let itemArray = jsonObject?.object(forKey: "providers") as? NSArray {
+        let url = URL(string: "https://storage.googleapis.com/h2o-flint.appspot.com/providers.json?key=AIzaSyD76BobwAhiW3bJux0sGVL1mZSePYZIh3E")
+        
+        let task = URLSession.shared.dataTask(with: url!) { data, response, error in
+            guard error == nil else {
+                print(error!)
+                return
+            }
+            guard let data = data else {
+                print("Data is empty")
+                return
+            }
+            print(data)
+            let json = try! JSONSerialization.jsonObject(with: data, options: .allowFragments) as AnyObject
+            
+            if let itemArray = json.object(forKey: "providers") as? NSArray {
                 for item in itemArray {
                     let itemDict = item as! NSDictionary
                     let latitude = Double(itemDict["latitude"] as! Double)
@@ -46,11 +56,11 @@ class Resources {
                         resourceTypeList.append(resource + " ")
                     }
                     
-//                    print(resourceList)
+                    //                    print(resourceList)
                     
                     let isSaved = false
                     
-//                    parseResourceValues(input: resources)
+                    //                    parseResourceValues(input: resources)
                     
                     
                     let resourceToAdd = Resource()
@@ -64,13 +74,14 @@ class Resources {
                     resourceToAdd.isSaved = isSaved
                     resourceToAdd.resourceTypes = resourceTypeList
                     
-                    resourceList.append(resourceToAdd)
+                    self.resourceList.append(resourceToAdd)
                     
                 }
             }
-        } catch let err as NSError {
-            print("err:\(err.localizedFailureReason)")
+            print(json)
         }
+        
+        task.resume()
 
     }
     

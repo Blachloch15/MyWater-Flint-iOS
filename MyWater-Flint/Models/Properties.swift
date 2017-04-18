@@ -15,11 +15,20 @@ class Properties {
     func generatePropertyList() {
         propertyList = [Property]()
         
-        let path = Bundle.main.path(forResource: "mixedData", ofType: "json")
-        do {
-            let jsonData : NSData = try NSData(contentsOf: URL(string: "file://\(path!)")!)
-            let jsonObject:AnyObject? = try JSONSerialization.jsonObject(with: jsonData as Data, options: .allowFragments) as AnyObject
-            if let itemArray = jsonObject?.object(forKey: "properties") as? NSArray {
+        let url = URL(string: "https://storage.googleapis.com/h2o-flint.appspot.com/properties.json?key=AIzaSyD76BobwAhiW3bJux0sGVL1mZSePYZIh3E")
+        let task = URLSession.shared.dataTask(with: url!) { data, response, error in
+            guard error == nil else {
+                print(error!)
+                return
+            }
+            guard let data = data else {
+                print("Data is empty")
+                return
+            }
+            print(data)
+            let json = try! JSONSerialization.jsonObject(with: data, options: .allowFragments) as AnyObject
+            
+            if let itemArray = json.object(forKey: "properties") as? NSArray {
                 for item in itemArray {
                     let itemDict = item as! NSDictionary
                     let latitude = Double(itemDict["lat"] as! String)!
@@ -40,13 +49,16 @@ class Properties {
                     propertyToAdd.dateTested = dateTested
                     propertyToAdd.isSaved = isSaved
                     
-                    propertyList.append(propertyToAdd)
+                    self.propertyList.append(propertyToAdd)
                     
                 }
+                
             }
-        } catch let err as NSError {
-            print("err:\(err.localizedFailureReason)")
+            
+            print(json)
         }
+        
+        task.resume()
     }
     
     func saveToLocalDb(myDb: MyDb) {

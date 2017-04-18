@@ -9,6 +9,8 @@ target 'MyWater-Flint' do
   pod 'GoogleMaps'
   pod 'GooglePlaces'
   pod 'RealmSwift'
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
 
   target 'MyWater-FlintTests' do
     inherit! :search_paths
